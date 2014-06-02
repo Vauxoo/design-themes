@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+<data>
+    <record id="image_bg_blur01" model="ir.attachment">
+        <field name="name">bg_blur01</field>
+        <field name="datas_fname">bg_blur01.jpg</field>
+        <field name="res_model">ir.ui.view</field>
+        <field name="type">url</field>
+        <field name="url">/theme_zen/static/img/library/bg/bg_blur01.jpg</field>
+    </record>
+    <record id="image_bg_blur02" model="ir.attachment">
+        <field name="name">bg_blur02</field>
+        <field name="datas_fname">bg_blur02.jpg</field>
+        <field name="res_model">ir.ui.view</field>
+        <field name="type">url</field>
+        <field name="url">/theme_zen/static/img/library/bg/bg_blur02.jpg</field>
+    </record>
+</data>
+</openerp>

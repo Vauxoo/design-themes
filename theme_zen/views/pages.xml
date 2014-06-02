@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+<data>
+
+<template id="website.hello" name="Homepage" page="True">
+    <t t-call="website.hello">
+        Hello World. khkjhkjh
+    </t>
+</template>
+
+</data>
+</openerp>
