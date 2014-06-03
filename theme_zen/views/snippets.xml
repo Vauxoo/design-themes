@@ -240,7 +240,7 @@
                 <img class="oe_snippet_thumbnail_img" src="/website/static/src/img/blocks/block_parallax.png" />
                 <span class="oe_snippet_thumbnail_title">Big Header Image</span>
             </div>
-            <section class="oe_snippet_body mb32 mt0 fw_categories headerwrap_container bg_abstract_cobalt">
+            <section class="oe_snippet_body mb32 mt0 fw_categories headerwrap_container bg_zen_blue bg_headerwrap">
                 <div class="container-fluid">
                     <div class="row">
 
@@ -268,7 +268,7 @@
                     <div class="row">
                       <div class="col-md-5 text-center miniprofile">
 					  <img src="/theme_zen/static/img/zen_id.png" alt="me" class="img-circle miniprofile_img_id center-block img-responsive"/>
-					  <img alt="140x140" class="img-responsive miniprofile_img_bg" src="/theme_zen/static/img/backgrounds/abstract/miniprofile_abstract_cobalt.jpg" />
+					  <img alt="140x140" class="img-responsive miniprofile_img_bg" src="/theme_zen/static/img/backgrounds/zen/miniprofile_zen_blue.jpg" />
 					  <p><h4 class="miniprofile_name">- Your Name -</h4>
                         <h3 class="miniprofile_name mt0 mb32">Job / Fonction</h3></p>
                         
@@ -316,7 +316,7 @@
                 <span class="oe_snippet_thumbnail_title">Jumbotron</span>
             </div>
             
-			<section class="oe_snippet_body mt0 mb32 fw_categories jumbotron_container bg_abstract_silver">       
+			<section class="oe_snippet_body mt0 mb32 fw_categories jumbotron_container bg_zen_blue bg_headerwrap">       
 		<div class="container-fluid">
 		<div class="row">
 
@@ -341,13 +341,13 @@
                 <img class="oe_snippet_thumbnail_img" src="/website/static/src/img/blocks/block_banner.png" />
                 <span class="oe_snippet_thumbnail_title">Banner Carousel</span>
             </div>
-		<section class="oe_snippet_body mt0 mb32 fw_categories bg_abstract_silver">	
+		<section class="oe_snippet_body mt0 mb32 fw_categories bg_zen_blue">	
 		<div style="height: 320px;" class="carousel slide mb32" id="myCarousel0">
         <ol class="carousel-indicators">
           <li data-slide-to="0" class="active" data-target="#myCarousel0"></li>
         </ol>
         <div class="carousel-inner">
-          <div style="background-image: url(/theme_zen/static/img/backgrounds/abstract/bg_abstract_gold.jpg)" class="item image_text active">
+          <div style="background-image: url(/theme_zen/static/img/backgrounds/zen/bg_zen_blue.jpg)" class="item image_text active">
             <div class="container">
               <div class="row content">
                 <div class="col-md-6 col-sm-12 mt48 mb48">

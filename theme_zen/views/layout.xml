@@ -26,6 +26,17 @@
                 </div>
             </div>
         </div>
+		<div class="col-md-4">
+            <div class="well text-center">
+                <div class="image">
+                    <img src="/theme_zen/static/img/palette/theme_zen_white.jpg" class="img-responsive" alt="Zen Theme"/>
+                </div>
+                <div class="options">
+                    <h3>Zen Theme White</h3>
+                    <a class="btn btn-info" href="/website/theme_change?theme_id=theme_zen.theme_zen_white">Apply</a>
+                </div>
+            </div>
+        </div>
         <div class="col-md-4">
             <div class="well text-center">
                 <div class="image">
@@ -77,7 +88,29 @@
                 </div>
                 <div class="options">
                     <h3>Zen Theme Red</h3>
-                    <a class="btn btn-info" href="/website/theme_change?theme_id=theme_zen.theme_zen_blue">Apply</a>
+                    <a class="btn btn-info" href="/website/theme_change?theme_id=theme_zen.theme_zen_red">Apply</a>
+                </div>
+            </div>
+        </div>
+		<div class="col-md-4">
+            <div class="well text-center">
+                <div class="image">
+                    <img src="/theme_zen/static/img/palette/theme_zen_brown.jpg" class="img-responsive" alt="Zen Theme"/>
+                </div>
+                <div class="options">
+                    <h3>Zen Theme Brown</h3>
+                    <a class="btn btn-info" href="/website/theme_change?theme_id=theme_zen.theme_zen_brown">Apply</a>
+                </div>
+            </div>
+        </div>
+		<div class="col-md-4">
+            <div class="well text-center">
+                <div class="image">
+                    <img src="/theme_zen/static/img/palette/theme_zen_purple.jpg" class="img-responsive" alt="Zen Theme"/>
+                </div>
+                <div class="options">
+                    <h3>Zen Theme Purple</h3>
+                    <a class="btn btn-info" href="/website/theme_change?theme_id=theme_zen.theme_zen_purple">Apply</a>
                 </div>
             </div>
         </div>

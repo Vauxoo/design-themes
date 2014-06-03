@@ -1,5 +1,145 @@
+// Core variables and mixins
+@import "variables.less";
+@import "mixins.less"; 
 
-/* Typo */
+// Reset
+@import "normalize.less";
+@import "print.less";
+
+// Core CSS
+@import "scaffolding.less";
+@import "type.less";
+@import "code.less";
+@import "grid.less";
+@import "tables.less";
+@import "forms.less";
+@import "buttons.less";
+
+// Components
+@import "component-animations.less";
+@import "glyphicons.less";
+@import "dropdowns.less";
+@import "button-groups.less";
+@import "input-groups.less";
+@import "navs.less";
+@import "navbar.less";
+@import "breadcrumbs.less";
+@import "pagination.less";
+@import "pager.less";
+@import "labels.less";
+@import "badges.less";
+@import "jumbotron.less";
+
+@import "thumbnails.less";
+@import "alerts.less";
+@import "progress-bars.less";
+@import "media.less";
+@import "list-group.less";
+@import "panels.less";
+@import "wells.less";
+@import "close.less";
+
+// Components w/ JavaScript
+@import "modals.less";
+@import "tooltip.less";
+@import "popovers.less";
+@import "carousel.less";
+
+// Utility classes
+@import "utilities.less";
+@import "responsive-utilities.less";
+
+
+
+@bg-img-blue:		"/theme_zen/static/img/backgrounds/zen/bg_zen_blue.jpg";
+@bg-img-yellow:		"/theme_zen/static/img/backgrounds/zen/bg_zen_yellow.jpg";
+@bg-img-pink:		"/theme_zen/static/img/backgrounds/zen/bg_zen_pink.jpg";
+@bg-img-red:		"/theme_zen/static/img/backgrounds/zen/bg_zen_red.jpg";
+@bg-img-green:		"/theme_zen/static/img/backgrounds/zen/bg_zen_green.jpg";
+@bg-img-orange:		"/theme_zen/static/img/backgrounds/zen/bg_zen_orange.jpg";
+@bg-img-purple:		"/theme_zen/static/img/backgrounds/zen/bg_zen_purple.jpg";
+@bg-img-brown:		"/theme_zen/static/img/backgrounds/zen/bg_zen_brown.jpg";
+@bg-img-dark:		"/theme_zen/static/img/backgrounds/zen/bg_zen_dark.jpg";
+@bg-img-gray:		"/theme_zen/static/img/backgrounds/zen/bg_zen_gray.jpg";
+
+.bg_color_blue { background: #4E8FB4;}
+.bg_color_yellow { background: #E4C337;}
+.bg_color_pink { background: #ea3e9d;}
+.bg_color_red { background: #cb0f0e;}
+.bg_color_green { background: #64b725;}
+.bg_color_orange { background: #ff6a00;}
+.bg_color_purple { background: #6c1eb3;}
+.bg_color_brown { background: #7C4B30;}
+.bg_color_dark  { background: #565656;}
+.bg_color_gray { background: #e9e9e9;}
+
+.bg_color_blue_light { background: #A2C9E0;}
+.bg_color_yellow_light { background: #fff9b9;}
+.bg_color_pink_light { background: #F391C7;}
+.bg_color_red_light { background: #F35C5B;}
+.bg_color_green_light { background: #AAF06A;}
+.bg_color_orange_light { background: #FFA86B;} 
+.bg_color_purple_light { background: #9F7CE8;}
+.bg_color_brown_light { background: #AD988B;}
+.bg_color_dark_light  { background: #939393;}
+.bg_color_gray_light { background: #f7f7f7;}
+
+.bg_color_blue_dark { background: #0d3951;}
+.bg_color_yellow_dark { background: #68550d;}
+.bg_color_pink_dark { background: #650a37;}
+.bg_color_red_dark { background: #590f0f;}
+.bg_color_green_dark { background: #2d401e;}
+.bg_color_orange_dark { background: #913000;}
+.bg_color_purple_dark { background: #401f5e;}
+.bg_color_brown_dark { background: #432b1e;}
+.bg_color_dark_dark  { background: #000;}
+.bg_color_gray_dark { background: #C8C8C8;}
+
+
+.bg_zen_blue {
+	background: url("@{bg-img-blue}");
+}
+
+.bg_zen_yellow {
+	background: url("@{bg-img-yellow}");
+}
+
+.bg_zen_red {
+	background: url("@{bg-img-red}");
+}
+
+.bg_zen_orange {
+	background: url("@{bg-img-orange}");
+}
+
+.bg_zen_green {
+	background: url("@{bg-img-green}");
+}
+
+.bg_zen_brown {
+	background: url("@{bg-img-brown}");
+}
+
+.bg_zen_purple {
+	background: url("@{bg-img-purple}");
+}
+
+.bg_zen_pink {
+	background: url("@{bg-img-pink}");
+}
+
+
+.bg_zen_gray { 
+	background: url("@{bg-img-gray}");
+}
+
+.bg_zen_dark {
+	background: url("@{bg-img-dark}");
+}
+
+
+
+/* Typo */ 
 h1, h3 {
 font-family: 'BebasNeue Regular';
 text-transform:uppercase;
@@ -45,7 +185,17 @@ h4 {
     border: 5px solid white;
     width: 100%;
     }
-
+	
+	
+	
+.bg_headerwrap {
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center center;
+	width: 100%;
+    background-size: cover;
+}
+ 
 /* Circle Button ----------------------------------------------
 
 
@@ -261,337 +411,7 @@ overflow:  auto;
     
 
 
-/* Background Images - BUSINESS --------------------------------------------------------------------------------- 
 
-.bg_business_silver {
-    background: url(/theme_zen/static/img/backgrounds/business/bg_business_silver.jpg) fixed no-repeat left top;
-    background-attachment: relative;
-    background-position: center center;
-    width: 100%;
-    
-    -webkit-background-size: 100%;
-    -moz-background-size: 100%;
-    -o-background-size: 100%;
-    background-size: 100%;
-
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-}
-
-.bg_business_cobalt {
-    background: url(/theme_zen/static/img/backgrounds/business/bg_business_cobalt.jpg) fixed no-repeat left top;
-    background-attachment: relative;
-    background-position: center center;
-    width: 100%;
-    
-    -webkit-background-size: 100%;
-    -moz-background-size: 100%;
-    -o-background-size: 100%;
-    background-size: 100%;
-
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-}
-
-.bg_business_gold {
-    background: url(/theme_zen/static/img/backgrounds/business/bg_business_gold.jpg) fixed no-repeat left top;
-    background-attachment: relative;
-    background-position: center center;
-    width: 100%;
-    
-    -webkit-background-size: 100%;
-    -moz-background-size: 100%;
-    -o-background-size: 100%;
-    background-size: 100%;
-
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-}
-*/
-
-/* Background Images - TECH --------------------------------------------------------------------------------- 
-
-.bg_tech_silver {
-    background: url(/theme_zen/static/img/backgrounds/tech/bg_tech_silver.jpg) fixed no-repeat left top;
-    background-attachment: relative;
-    background-position: center center;
-    width: 100%;
-    
-    -webkit-background-size: 100%;
-    -moz-background-size: 100%;
-    -o-background-size: 100%;
-    background-size: 100%;
-
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-}
-
-.bg_tech_cobalt {
-    background: url(/theme_zen/static/img/backgrounds/tech/bg_tech_cobalt.jpg) fixed no-repeat left top;
-    background-attachment: relative;
-    background-position: center center;
-    width: 100%;
-    
-    -webkit-background-size: 100%;
-    -moz-background-size: 100%;
-    -o-background-size: 100%;
-    background-size: 100%;
-
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-}
-
-.bg_tech_gold {
-    background: url(/theme_zen/static/img/backgrounds/tech/bg_tech_gold.jpg) fixed no-repeat left top;
-    background-attachment: relative;
-    background-position: center center;
-    width: 100%;
-    
-    -webkit-background-size: 100%;
-    -moz-background-size: 100%;
-    -o-background-size: 100%;
-    background-size: 100%;
-
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-}
-
-*/
-/* Styles for Pricing Tables */
-
-.zen_pricing {
-    overflow: hidden;
-    margin:0 auto;
-    padding-bottom: 20px;
-}
-
-.tiny {
-    -moz-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.2);
-    -webkit-box-shadow: 0px 2px 5px 0px rgba(0,0,0,.2);
-    box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.2);
-    margin:20px 0;
-    border:1px solid @brand-primary;
-    border-bottom:10px solid @brand-primary;
-    
-}
-
-.small {
-
-    -moz-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.2);
-    -webkit-box-shadow: 0px 2px 5px 0px rgba(0,0,0,.2);
-    box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.2);
-    border:1px solid @brand-primary-dark;
-    border-bottom:10px solid @brand-primary-dark;
-    
-}
-
-.medium {
-
-    margin:20px 0;
-    -moz-box-shadow: 0 2px 5px 0 rgba(0,0,0,.2);
-    -webkit-box-shadow: 0 2px 5px 0 rgba(0,0,0,.2);
-    box-shadow: 0 2px 5px 0 rgba(0,0,0,.2);
-    border:1px solid @brand-primary-darker;
-    border-bottom:10px solid @brand-primary-darker;
-
-    
-}
-
-.pro {
-
-    margin:20px 0;
-    -moz-box-shadow: 0 2px 5px 0 rgba(0,0,0,.2);
-    -webkit-box-shadow: 0 2px 5px 0 rgba(0,0,0,.2);
-    box-shadow: 0 2px 5px 0 rgba(0,0,0,.2);
-    border:1px solid @brand-primary-darker;
-    border-bottom:10px solid @brand-primary-darker;
-
-    
-}
-
-.pricing-table strong { font-weight: 700; color: #3d3d3d; }
-
-.pricing-table-header-tiny {
-    padding: 5px 0 5px 0;
-    background: @brand-primary-light;
-    border-bottom:10px solid @brand-primary-light;
-}
-
-.pricing-table-header-small {
-    padding: 5px 0 5px 0;
-    background: @brand-primary;
-    border-bottom:10px solid @brand-primary;
-
-}
-
-.pricing-table-header-medium {
-    padding: 5px 0 5px 0;
-    background: @brand-primary-dark;
-    border-bottom:10px solid @brand-primary-dark;
-
-}
-
-.pricing-table-header-pro {
-    padding: 5px 0 5px 0;
-    background: @brand-primary-darker;
-    border-bottom:10px solid @brand-primary-darker;
-}
-
-.pricing-table-header-tiny h2, .pricing-table-header-small h2, .pricing-table-header-medium h2, .pricing-table-header-pro h2 {  font-weight: 700; color:#FFF; }
-.pricing-table-header-tiny h3, .pricing-table-header-small h3, .pricing-table-header-medium h3, .pricing-table-header-pro h3 { font-weight: 500; color:#FFF;  }
-
-
-.pricing-table-text {
-    margin: 15px 30px 0 30px;
-    padding: 0 10px 15px 10px;
-    border-bottom: 1px solid #ddd;
-    text-align: left;
-    line-height: 30px;
-    font-size: 16px;
-    color: #888;
-}
-
-.pricing-table-features {
-    margin: 15px 10px 0 10px;
-    padding: 0 10px 15px 10px;
-    border-bottom: 1px dashed #888;
-    text-align: center;
-    line-height: 20px;
-    font-size: 14px;
-    color: #888;
-}
-
-.pricing-table-signup-tiny {
-    margin-top: 25px;
-    padding-bottom: 10px;
-}
-
-.pricing-table-signup-tiny a {
-    display: inline-block;
-    width:50%;
-    height: 50px;
-    background: #16a085;
-    line-height: 50px;
-    
-    color: #fff;
-    text-decoration: none;
-    text-transform: uppercase;
-}
-
-.pricing-table-signup-tiny a:hover {
-    text-decoration: none;
-    background: @brand-primary;
-    color: #fff;
-
-  
-}
-
-.pricing-table-signup-tiny a:active {
-    background: @brand-primary;
-    color: #fff;
-}
-
-
-.pricing-table-signup-small {
-    margin-top: 25px;
-    padding-bottom: 10px;
-}
-
-.pricing-table-signup-small a {
-    display: inline-block;
-    width:50%;
-    height: 50px;
-    background: #f39c12;
-    line-height: 50px;
-    
-    color: #fff;
-    text-decoration: none;
-    text-transform: uppercase;
-   
-}
-
-.pricing-table-signup-small a:hover {
-    text-decoration: none;
-    background-color:@brand-primary-dark;
-    color: #fff;
-}
-
-.pricing-table-signup-small a:active {
-    background-color:@brand-primary-dark;
-    color: #fff;
-
-}
-
-.pricing-table-signup-medium {
-    margin-top: 25px;
-    padding-bottom: 10px;
-}
-
-.pricing-table-signup-medium a {
-    display: inline-block;
-    width:50%;
-    height: 50px;
-    background: #c0392b;
-    line-height: 50px;
-    
-    color: #fff;
-    text-decoration: none;
-    text-transform: uppercase;
-   
-}
-
-.pricing-table-signup-medium a:hover {
-    text-decoration: none;
-    background-color:@brand-primary-darker;
-    color:#FFF;
-}
-
-.pricing-table-signup-medium a:active {
-    background-color:@brand-primary-darker;
-    color: #fff;
-
-}
-
-.pricing-table-signup-pro {
-    margin-top: 25px;
-    padding-bottom: 10px;
-}
-
-.pricing-table-signup-pro a {
-    display: inline-block;
-    width:50%;
-    height: 50px;
-    background: @brand-primary-darker;
-    line-height: 50px;
-    
-    color: #fff;
-    text-decoration: none;
-    text-transform: uppercase;
-}
-
-.pricing-table-signup-pro a:hover {
-    text-decoration: none;
-    background-color:@brand-primary-darker;
-    color: #fff;
-    }
-
-.pricing-table-signup-pro a:active {
-    background-color:@brand-primary-darker;
-    color: #fff;
-
-}
 
 .footer {
     background-color: @brand-primary-darker;
