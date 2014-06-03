@@ -1,8 +1,9 @@
 {
-    'name': 'Theme Zen',
+    'name': 'Zen Theme',
+    'description': 'Zen Theme',
     'category': 'Website',
     'version': '1.0',
-    'author': 'Christine Derville',
+    'author': 'OpenERP SA',
     'depends': ['website'],
     'data': [
         'views/layout.xml',
@@ -11,4 +12,5 @@
         'views/images.xml',
         'views/options.xml',
     ],
+    'application': True,
 }
