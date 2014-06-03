@@ -5862,6 +5862,7 @@ button.close {
 .bg_color_gray_dark {
   background: #C8C8C8;
 }
+/* Zen Backgrounds */
 .bg_zen_blue {
   background: url("/theme_zen/static/img/backgrounds/zen/bg_zen_blue.jpg");
 }

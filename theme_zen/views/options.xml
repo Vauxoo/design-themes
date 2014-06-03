@@ -4,7 +4,7 @@
   <template id="gourman_website_options_pattern" inherit_id="website.snippet_options">
    <xpath expr="//div[@data-snippet-option-id='background']//ul[@class='dropdown-menu'][1]" position="inside">
     <li class="dropdown-submenu">
-     <a tabindex="-1" href="#">Zen Pictures</a>
+     <a tabindex="-1" href="#">Zen Backgrounds</a>
      <ul class="dropdown-menu">	 
 
         
@@ -52,6 +52,8 @@
      </ul>
     </li>
    </xpath>
+   
+ 
    
       <xpath expr="//div[@data-snippet-option-id='background']//ul[@class='dropdown-menu'][1]" position="inside">
     <li class="dropdown-submenu">
