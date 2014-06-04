@@ -5896,14 +5896,14 @@ button.close {
 /* Typo */
 h1,
 h3 {
-  font-family: 'BebasNeue Regular';
+  font-family: "BebasNeue Regular", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   letter-spacing: 0.5px;
   color: #999999;
   font-weight: 600;
 }
 h2 {
-  font-family: 'BebasNeue Regular';
+  font-family: "BebasNeue Regular", Helvetica, Arial, sans-serif;
   letter-spacing: 0.5px;
   color: #999999;
   font-weight: 600;
@@ -5920,8 +5920,8 @@ h4 {
   border: 5px solid white;
 }
 .text-muted {
-  font-size: 30px;
-  font-family: 'Lato';
+  font-size: 24px;
+  font-family: "Lato", "Times New Roman", Times, serif;
   font-weight: 200;
   letter-spacing: 0.5px;
   text-transform: none;
@@ -5933,13 +5933,23 @@ h4 {
   border: 5px solid white;
   width: 100%;
 }
+/*
 .bg_headerwrap {
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center center;
-  width: 100%;
-  background-size: cover;
+	background-attachment: relative;
+	background-position: center center;
+	width: 100%;
+	
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
+*/
 /* Circle Button ----------------------------------------------
 
 
@@ -5967,47 +5977,6 @@ h4 {
   font-size: 24px;
   line-height: 1.33;
   border-radius: 35px;
-}
-
-*/
-/* NAV --------------------------------------------------------------*/
-.navbar {
-  font-family: 'Lato';
-}
-/* HR -----------------------------------------------------------
-
-.page-header{
-margin-top:80px;
-}
-        
-hr {
-height: 1em;
-padding: 0;
-margin: 0;
-border: 0px;
-}
-    
-hr:before, hr:after {
-position: absolute;
-content: '';
-height: 1.1em;
-top: 0;
-left: 0;
-right: 0;
-}
-
-hr:before {
-background: linear-gradient(90deg, #00c5c7 15%, #34495e 15%, #34495e 55%, #f1c40f 55%, #f1c40f 59%, #fff 59%, #fff 67%, #555 67%, #555 83%, #f8f8f8 83%, #f8f8f8 92%, #cfcfcf 92%);
-}
-
-/* with zen-hr 
-
-body {  padding-top: 67px; }
-body, html{
-margin: 0;
-padding: 0;
-height: 100%;
-overflow:  auto;
 }
 
 */
@@ -6157,13 +6126,20 @@ overflow:  auto;
   letter-spacing: 2px;
   text-shadow: 1px 1px 8px rgba(0, 0, 0, 0.3);
 }
+/* !!!! ODOO Websitebuilder NAV !!!!! --------------------------------------------------------------*/
+.navbar {
+  font-family: "Roboto" !important;
+}
+/*
 .footer {
-  background-color: #11637b;
-}
-#footer_container {
-  background-color: #11637b;
-  background-size: cover;
-}
+   background-color: @brand-primary-darker;
+    }
+*/
+/*#footer_container {
+    background-color: @brand-primary-darker;
+    background-size: cover;
+    
+    }*/
 #footer h4 {
   padding-left: 50px;
 }
@@ -6172,14 +6148,15 @@ overflow:  auto;
   font-weight: bold;
   margin-top: 20px;
   background: none !important;
-  color: white;
+  color: #11637b;
 }
 footer .fa {
   color: #53a7bf;
+  size: px;
 }
 h4 {
   text-transform: uppercase;
-  color: white !important;
+  color: #3d93ac !important;
   font-family: "Roboto" !important;
   font-size: 15px !important;
   font-weight: bold;
@@ -9424,6 +9401,21 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 .mb0 {
   margin-bottom: 0px !important;
 }
+/* add a cover behaviour*/
+.bg_zen_blue {
+  background: url("/theme_zen/static/img/backgrounds/zen/bg_zen_blue.jpg") no-repeat fixed;
+  background-attachment: relative;
+  background-position: center center;
+  width: 100%;
+  -webkit-background-size: 100%;
+  -moz-background-size: 100%;
+  -o-background-size: 100%;
+  background-size: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
 /* ------- */
 /* Variables */
 /* Backgrounds ------------------------------------------------*/
@@ -9487,29 +9479,29 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 .fontsforweb_fontid_1962 {
   font-family: 'BebasNeue Bold' !important;
 }
-/* Bitter */
+/* Lato */
 @font-face {
-  font-family: 'Bitter-Italic';
-  src: url('/theme_zen/static/font/Bitter-Italic.ttf');
-  src: local('Bitter-Italic'), url('/theme_zen/static/font/Bitter-Italic.ttf') format('truetype');
+  font-family: 'Lato-Italic';
+  src: url('/theme_zen/static/font/Lato-Italic.ttf');
+  src: local('Lato-Italic'), url('/theme_zen/static/font/Lato-Italic.ttf') format('truetype');
 }
 @font-face {
-  font-family: 'Bitter-Regular';
-  src: url('/theme_zen/static/font/Bitter-Regular.ttf');
-  src: local('Bitter-Regular'), url('/theme_zen/static/font/Bitter-Regular.ttf') format('truetype');
+  font-family: 'Lato-Regular';
+  src: url('/theme_zen/static/font/Lato-Regular.ttf');
+  src: local('Lato-Regular'), url('/theme_zen/static/font/Lato-Regular.ttf') format('truetype');
 }
 @font-face {
-  font-family: 'Bitter-Bold';
-  src: url('/theme_zen/static/font/Bitter-Bold.ttf');
-  src: local('Bitter-Bold'), url('/theme_zen/static/font/Bitter-Bold.ttf') format('truetype');
+  font-family: 'Lato-Bold';
+  src: url('/theme_zen/static/font/Lato-Bold.ttf');
+  src: local('Lato-Bold'), url('/theme_zen/static/font/Lato-Bold.ttf') format('truetype');
 }
 /* use this class to attach this font to any element i.e. <p class="fontsforweb_fontid_1962">Text with this font applied</p> */
 .fontsforweb_fontid_1962 {
-  font-family: 'Bitter-Italic' !important;
+  font-family: 'Lato-Italic' !important;
 }
 .fontsforweb_fontid_1962 {
-  font-family: 'Bitter-Regular' !important;
+  font-family: 'Lato-Regular' !important;
 }
 .fontsforweb_fontid_1962 {
-  font-family: 'Bitter-Bold' !important;
+  font-family: 'Lato-Bold' !important;
 }

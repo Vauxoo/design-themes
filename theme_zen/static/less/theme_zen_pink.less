@@ -6,6 +6,25 @@
 @import "chd_animate.less";
 @import "chd_padding.less";
 
+/* Overide the snippets background class*/
+
+.bg_zen_blue {
+	background: url("@{bg-img-pink}") no-repeat fixed;
+	background-attachment: relative;
+	background-position: center center;
+	width: 100%;
+	
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
 
 /* ------- */
 /* Variables */
@@ -16,18 +35,18 @@
 @gray-light:             lighten(#000, 75%);
 @gray-lighter:           lighten(#000, 87%);
 
-@brand-primary:         #53a7bf;	// blue
-@brand-success:         #9cce86;	// green
+@brand-primary:         #ea3e9d;	// pink
+@brand-success:         #53a7bf;	// blue
 @brand-info:            #f9e03c;	// yellow
 @brand-warning:         #fcb066;	// orange
-@brand-danger:          #ec678d;	// red
+@brand-danger:          #e3004b;	// red
 
 
-@brand-primary-darker:			#11637b;	// blue darker
-@brand-primary-dark:         	#3d93ac;	// blue dark
+@brand-primary-darker:			#3c0420;	// primary darker
+@brand-primary-dark:         	#650a37;	// primary dark
 
-@brand-primary-light:         	#8fcde2;	// blue light
-@brand-primary-lighter:         #ddeef5;	// blue lighter
+@brand-primary-light:         	#F391C7;	// primary light
+@brand-primary-lighter:         #f2e0ea;	// primary lighter
 
 /* Backgrounds ------------------------------------------------*/
 

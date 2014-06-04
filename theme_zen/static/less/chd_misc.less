@@ -155,7 +155,7 @@
 
 /* Typo */ 
 h1, h3 {
-font-family: 'BebasNeue Regular';
+font-family: @font-family-sans-serif;
 text-transform:uppercase;
 letter-spacing:0.5px;
 color: @gray-dark;
@@ -164,7 +164,7 @@ font-weight: 600;
 }
 
 h2 {
-font-family: 'BebasNeue Regular';
+font-family: @font-family-sans-serif;
 letter-spacing: 0.5px;
 color: @gray-dark;
 font-weight: 600;
@@ -185,15 +185,15 @@ h4 {
     }
 
 .text-muted {
-    font-size: 30px;
-    font-family:'Lato';
-    font-weight:200;
+    font-size: 24px;
+    font-family: @font-family-serif;
+    font-weight: 200;
     letter-spacing:0.5px;
     text-transform: none;
-    }
+    } 
 .text-primary {
     color: @brand-primary-dark;
-    }
+	}
     
 .zen_3col_padding img {
     border: 5px solid white;
@@ -201,14 +201,24 @@ h4 {
     }
 	
 	
-	
+/*
 .bg_headerwrap {
-	background-repeat: no-repeat;
-	background-attachment: fixed;
+	background-attachment: relative;
 	background-position: center center;
 	width: 100%;
+	
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-size: cover;
 }
+*/
+
  
 /* Circle Button ----------------------------------------------
 
@@ -241,50 +251,6 @@ h4 {
 
 */
 
-/* NAV --------------------------------------------------------------*/
-
-.navbar {
-    font-family: 'Lato';
-
-}
-
-/* HR -----------------------------------------------------------
-
-.page-header{
-margin-top:80px;
-}
-        
-hr {
-height: 1em;
-padding: 0;
-margin: 0;
-border: 0px;
-}
-    
-hr:before, hr:after {
-position: absolute;
-content: '';
-height: 1.1em;
-top: 0;
-left: 0;
-right: 0;
-}
-
-hr:before {
-background: linear-gradient(90deg, #00c5c7 15%, #34495e 15%, #34495e 55%, #f1c40f 55%, #f1c40f 59%, #fff 59%, #fff 67%, #555 67%, #555 83%, #f8f8f8 83%, #f8f8f8 92%, #cfcfcf 92%);
-}
-
-/* with zen-hr 
-
-body {  padding-top: 67px; }
-body, html{
-margin: 0;
-padding: 0;
-height: 100%;
-overflow:  auto;
-}
-
-*/
 
 
 /* Fontawesome */
@@ -293,6 +259,7 @@ overflow:  auto;
     width: 200px;
     margin: auto;
     }
+	
 .icon_box {
     position: relative;
     float:left;
@@ -425,17 +392,25 @@ overflow:  auto;
     
 
 
+/* !!!! ODOO Websitebuilder NAV !!!!! --------------------------------------------------------------*/
+
+.navbar {
+    font-family: "Roboto" !important;;
+
+}
 
 
+ /*
 .footer {
-    background-color: @brand-primary-darker;
+   background-color: @brand-primary-darker;
     }
+*/
 
-#footer_container {
+/*#footer_container {
     background-color: @brand-primary-darker;
     background-size: cover;
     
-    }
+    }*/
     
 #footer h4 {
     padding-left: 50px;
@@ -446,17 +421,18 @@ overflow:  auto;
       font-weight: bold;
       margin-top: 20px;
       background: none !important;
-      color: white;
+      color: @brand-primary-darker;
    }
    
    
 footer .fa {
     color: @brand-primary;
+	size:px;  
   }
   
   h4 {
     text-transform: uppercase;
-      color: white !important;
+      color: @brand-primary-dark !important;
       font-family: "Roboto" !important;
       font-size: 15px !important;
       font-weight: bold;

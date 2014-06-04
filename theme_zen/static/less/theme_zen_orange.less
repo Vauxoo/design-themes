@@ -1,63 +1,29 @@
-
-
-// Core variables and mixins
-@import "variables.less";
-@import "mixins.less"; 
-
-// Reset
-@import "normalize.less";
-@import "print.less";
-
-// Core CSS
-@import "scaffolding.less";
-@import "type.less";
-@import "code.less";
-@import "grid.less";
-@import "tables.less";
-@import "forms.less";
-@import "buttons.less";
-
-// Components
-@import "component-animations.less";
-@import "glyphicons.less";
-@import "dropdowns.less";
-@import "button-groups.less";
-@import "input-groups.less";
-@import "navs.less";
-@import "navbar.less";
-@import "breadcrumbs.less";
-@import "pagination.less";
-@import "pager.less";
-@import "labels.less";
-@import "badges.less";
-@import "jumbotron.less";
-
-@import "thumbnails.less";
-@import "alerts.less";
-@import "progress-bars.less";
-@import "media.less";
-@import "list-group.less";
-@import "panels.less";
-@import "wells.less";
-@import "close.less";
-
-// Components w/ JavaScript
-@import "modals.less";
-@import "tooltip.less";
-@import "popovers.less";
-@import "carousel.less";
-
-// Utility classes
-@import "utilities.less";
-@import "responsive-utilities.less";
-
+ 
 // chd less
+@import "chd_misc.less";
 @import "chd_pricing.less";
 @import "chd_lightbox.less";
 @import "chd_animate.less";
 @import "chd_padding.less";
-@import "chd_backgrounds.less";
-@import "chd_misc.less";
+
+/* Overide the snippets background class*/
+
+.bg_zen_blue {
+	background: url("@{bg-img-orange}") no-repeat fixed;
+	background-attachment: relative;
+	background-position: center center;
+	width: 100%;
+	
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
 
  
 
@@ -70,18 +36,18 @@
 @gray-light:             lighten(#000, 75%);   //
 @gray-lighter:           lighten(#000, 87%); //
 
-@brand-primary:         #53a7bf;	// blue
+@brand-primary:         #ff6a00;	// orange
 @brand-success:         #9cce86;	// green
 @brand-info:            #f9e03c;	// yellow
-@brand-warning:         #fcb066;	// orange
+@brand-warning:         #53a7bf;	// blue
 @brand-danger:          #ec678d;	// red
 
 
-@brand-primary-darker:			#11637b;	// blue darker
-@brand-primary-dark:         	#3d93ac;	// blue dark
+@brand-primary-darker:			#271308;	// darker
+@brand-primary-dark:         	#913000;	// dark
 
-@brand-primary-light:         	#8fcde2;	// blue light
-@brand-primary-lighter:         #ddeef5;	// blue lighter
+@brand-primary-light:         	#FFA86B;	// light
+@brand-primary-lighter:         #f5e0d0;	// lighter
 
 /* Backgrounds ------------------------------------------------*/
 
@@ -92,7 +58,7 @@
 .bg-gray-lighter {background-color: @gray-lighter; }
 
 
-@bg-primary:         background(@brand-primary);	// blue
+@bg-primary:         background(@brand-primary);	// orange
 @bg-success:         background(@brand-success);	// green
 @bg-info:            background(@brand-info);		// yellow
 @bg-warning:         background(@brand-warning);	// orange
@@ -117,11 +83,6 @@
 @border-radius-small:       0px;
 
 
-/*  --------------------------------------------------------------------------------------------------------------------------------------------------- <<<<<< !!!!!
-.bg-img-primary {
-	background: url(/theme_zen/static/img/backgrounds/abstract/bg_abstract_cobalt.jpg) no-repeat center;
-}
-*/
 
 
 @brand-more:			#a181c8;	// violet
@@ -143,8 +104,8 @@
 /* 
 /* ## Font, line-height, and color for body text, headings, and more.*/
 
-@font-family-sans-serif:  "Helvetica Neue", Helvetica, Arial, sans-serif;
-@font-family-serif:       "Lato", "Times New Roman", Times, serif;
+@font-family-sans-serif:  "Lato", Helvetica, Arial, sans-serif;
+@font-family-serif:       "Trebuchet MS", "Times New Roman", Times, serif;
 /* Default monospace fonts for `<code>`, `<kbd>`, and `<pre>`.*/
 @font-family-monospace:   Menlo, Monaco, Consolas, "Courier New", monospace;
 @font-family-base:        @font-family-serif;

@@ -6,6 +6,25 @@
 @import "chd_animate.less";
 @import "chd_padding.less";
 
+/* add a cover behaviour*/
+
+.bg_zen_blue {
+	background: url("@{bg-img-blue}") no-repeat fixed;
+	background-attachment: relative;
+	background-position: center center;
+	width: 100%;
+	
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
 
 /* ------- */
 /* Variables */
@@ -66,7 +85,7 @@
 /* 
 /* ## Font, line-height, and color for body text, headings, and more.*/
 
-@font-family-sans-serif:  "Helvetica Neue", Helvetica, Arial, sans-serif;
+@font-family-sans-serif:  "BebasNeue Regular", Helvetica, Arial, sans-serif;
 @font-family-serif:       "Lato", "Times New Roman", Times, serif;
 /* Default monospace fonts for `<code>`, `<kbd>`, and `<pre>`.*/
 @font-family-monospace:   Menlo, Monaco, Consolas, "Courier New", monospace;
@@ -147,37 +166,37 @@
 	font-family: 'BebasNeue Bold' !important;
 }
 
-/* Bitter */
+/* Lato */
 
 @font-face {
-	font-family: 'Bitter-Italic';
-	src: url('/theme_zen/static/font/Bitter-Italic.ttf');
-	src: local('Bitter-Italic'), url('/theme_zen/static/font/Bitter-Italic.ttf') format('truetype');
+	font-family: 'Lato-Italic';
+	src: url('/theme_zen/static/font/Lato-Italic.ttf');
+	src: local('Lato-Italic'), url('/theme_zen/static/font/Lato-Italic.ttf') format('truetype');
 }
 
 @font-face {
-	font-family: 'Bitter-Regular';
-	src: url('/theme_zen/static/font/Bitter-Regular.ttf');
-	src: local('Bitter-Regular'), url('/theme_zen/static/font/Bitter-Regular.ttf') format('truetype');
+	font-family: 'Lato-Regular';
+	src: url('/theme_zen/static/font/Lato-Regular.ttf');
+	src: local('Lato-Regular'), url('/theme_zen/static/font/Lato-Regular.ttf') format('truetype');
 }
 
 @font-face {
-	font-family: 'Bitter-Bold';
-	src: url('/theme_zen/static/font/Bitter-Bold.ttf');
-	src: local('Bitter-Bold'), url('/theme_zen/static/font/Bitter-Bold.ttf') format('truetype');
+	font-family: 'Lato-Bold';
+	src: url('/theme_zen/static/font/Lato-Bold.ttf');
+	src: local('Lato-Bold'), url('/theme_zen/static/font/Lato-Bold.ttf') format('truetype');
 }
 
 /* use this class to attach this font to any element i.e. <p class="fontsforweb_fontid_1962">Text with this font applied</p> */
 .fontsforweb_fontid_1962 {
-	font-family: 'Bitter-Italic' !important;
+	font-family: 'Lato-Italic' !important;
 }
 
 .fontsforweb_fontid_1962 {
-	font-family: 'Bitter-Regular' !important;
+	font-family: 'Lato-Regular' !important;
 }
 
 .fontsforweb_fontid_1962 {
-	font-family: 'Bitter-Bold' !important;
+	font-family: 'Lato-Bold' !important;
 }
 
 

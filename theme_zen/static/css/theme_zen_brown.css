@@ -9012,8 +9012,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 .mb0 {
   margin-bottom: 0px !important;
 }
-/* LESS Document */
-/* Background Images - zen ---------------------------------------------------------------------------------*/
 .bg_color_blue {
   background: #4E8FB4;
 }
@@ -9138,14 +9136,14 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 /* Typo */
 h1,
 h3 {
-  font-family: 'BebasNeue Regular';
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   letter-spacing: 0.5px;
   color: #999999;
   font-weight: 600;
 }
 h2 {
-  font-family: 'BebasNeue Regular';
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   letter-spacing: 0.5px;
   color: #999999;
   font-weight: 600;
@@ -9162,8 +9160,8 @@ h4 {
   border: 5px solid white;
 }
 .text-muted {
-  font-size: 30px;
-  font-family: 'Lato';
+  font-size: 24px;
+  font-family: "Lato", "Times New Roman", Times, serif;
   font-weight: 200;
   letter-spacing: 0.5px;
   text-transform: none;
@@ -9175,13 +9173,23 @@ h4 {
   border: 5px solid white;
   width: 100%;
 }
+/*
 .bg_headerwrap {
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center center;
-  width: 100%;
-  background-size: cover;
+	background-attachment: relative;
+	background-position: center center;
+	width: 100%;
+	
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
+*/
 /* Circle Button ----------------------------------------------
 
 
@@ -9209,47 +9217,6 @@ h4 {
   font-size: 24px;
   line-height: 1.33;
   border-radius: 35px;
-}
-
-*/
-/* NAV --------------------------------------------------------------*/
-.navbar {
-  font-family: 'Lato';
-}
-/* HR -----------------------------------------------------------
-
-.page-header{
-margin-top:80px;
-}
-        
-hr {
-height: 1em;
-padding: 0;
-margin: 0;
-border: 0px;
-}
-    
-hr:before, hr:after {
-position: absolute;
-content: '';
-height: 1.1em;
-top: 0;
-left: 0;
-right: 0;
-}
-
-hr:before {
-background: linear-gradient(90deg, #00c5c7 15%, #34495e 15%, #34495e 55%, #f1c40f 55%, #f1c40f 59%, #fff 59%, #fff 67%, #555 67%, #555 83%, #f8f8f8 83%, #f8f8f8 92%, #cfcfcf 92%);
-}
-
-/* with zen-hr 
-
-body {  padding-top: 67px; }
-body, html{
-margin: 0;
-padding: 0;
-height: 100%;
-overflow:  auto;
 }
 
 */
@@ -9399,13 +9366,20 @@ overflow:  auto;
   letter-spacing: 2px;
   text-shadow: 1px 1px 8px rgba(0, 0, 0, 0.3);
 }
+/* !!!! ODOO Websitebuilder NAV !!!!! --------------------------------------------------------------*/
+.navbar {
+  font-family: "Roboto" !important;
+}
+/*
 .footer {
-  background-color: #11637b;
-}
-#footer_container {
-  background-color: #11637b;
-  background-size: cover;
-}
+   background-color: @brand-primary-darker;
+    }
+*/
+/*#footer_container {
+    background-color: @brand-primary-darker;
+    background-size: cover;
+    
+    }*/
 #footer h4 {
   padding-left: 50px;
 }
@@ -9414,14 +9388,15 @@ overflow:  auto;
   font-weight: bold;
   margin-top: 20px;
   background: none !important;
-  color: white;
+  color: #11637b;
 }
 footer .fa {
   color: #53a7bf;
+  size: px;
 }
 h4 {
   text-transform: uppercase;
-  color: white !important;
+  color: #3d93ac !important;
   font-family: "Roboto" !important;
   font-size: 15px !important;
   font-weight: bold;

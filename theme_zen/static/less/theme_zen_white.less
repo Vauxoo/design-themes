@@ -1,87 +1,52 @@
-
-
-// Core variables and mixins
-@import "variables.less";
-@import "mixins.less"; 
-
-// Reset
-@import "normalize.less";
-@import "print.less";
-
-// Core CSS
-@import "scaffolding.less";
-@import "type.less";
-@import "code.less";
-@import "grid.less";
-@import "tables.less";
-@import "forms.less";
-@import "buttons.less";
-
-// Components
-@import "component-animations.less";
-@import "glyphicons.less";
-@import "dropdowns.less";
-@import "button-groups.less";
-@import "input-groups.less";
-@import "navs.less";
-@import "navbar.less";
-@import "breadcrumbs.less";
-@import "pagination.less";
-@import "pager.less";
-@import "labels.less";
-@import "badges.less";
-@import "jumbotron.less";
-
-@import "thumbnails.less";
-@import "alerts.less";
-@import "progress-bars.less";
-@import "media.less";
-@import "list-group.less";
-@import "panels.less";
-@import "wells.less";
-@import "close.less";
-
-// Components w/ JavaScript
-@import "modals.less";
-@import "tooltip.less";
-@import "popovers.less";
-@import "carousel.less";
-
-// Utility classes
-@import "utilities.less";
-@import "responsive-utilities.less";
-
-// chd less
+ 
+// chd less 
+@import "chd_misc.less";
 @import "chd_pricing.less";
 @import "chd_lightbox.less";
 @import "chd_animate.less";
 @import "chd_padding.less";
-@import "chd_backgrounds.less";
-@import "chd_misc.less";
 
- 
+/* add a cover behaviour*/
+
+.bg_zen_blue {
+	background: url("@{bg-img-gray}") no-repeat fixed;
+	background-attachment: relative;
+	background-position: center center;
+	width: 100%;
+	
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
 
 /* ------- */
 /* Variables */
 
-@gray-darker:            lighten(#000, 30%); // 
-@gray-dark:              lighten(#000, 60%);   // 
-@gray:                   lighten(#000, 71%);    //
-@gray-light:             lighten(#000, 75%);   //
-@gray-lighter:           lighten(#000, 87%); //
+@gray-darker:            lighten(#000, 30%);
+@gray-dark:              lighten(#000, 60%);
+@gray:                   lighten(#000, 71%);
+@gray-light:             lighten(#000, 75%);
+@gray-lighter:           lighten(#000, 87%);
 
-@brand-primary:         #53a7bf;	// blue
+@brand-primary:         #777;	// blue
 @brand-success:         #9cce86;	// green
 @brand-info:            #f9e03c;	// yellow
 @brand-warning:         #fcb066;	// orange
 @brand-danger:          #ec678d;	// red
 
 
-@brand-primary-darker:			#11637b;	// blue darker
-@brand-primary-dark:         	#3d93ac;	// blue dark
+@brand-primary-darker:			#555;	// 
+@brand-primary-dark:         	#666;	// 
 
-@brand-primary-light:         	#8fcde2;	// blue light
-@brand-primary-lighter:         #ddeef5;	// blue lighter
+@brand-primary-light:         	#888;	// 
+@brand-primary-lighter:         #999;	// 
 
 /* Backgrounds ------------------------------------------------*/
 
@@ -96,37 +61,14 @@
 @bg-success:         background(@brand-success);	// green
 @bg-info:            background(@brand-info);		// yellow
 @bg-warning:         background(@brand-warning);	// orange
-@bg-danger:          background(@brand-danger);		// red
+@bg-danger:          background(@brand-danger);		// red 
 
-
-@bg-img-cobalt: "/theme_zen/static/img/backgrounds/abstract/bg_abstract_cobalt.jpg";
-@bg-img-gold: "/theme_zen/static/img/backgrounds/abstract/bg_abstract_gold.jpg";
-@bg-img-coal: "/theme_zen/static/img/backgrounds/abstract/bg_abstract_coal.jpg";
-@bg-img-silver: "/theme_zen/static/img/backgrounds/abstract/bg_abstract_silver.jpg";
-@bg-img-rainbow: "/theme_zen/static/img/backgrounds/abstract/bg_abstract_rainbow.jpg";
-
-
-.bg_color_cobalt { background: #a2d0e1;}
-.bg_color_gold { background: #e2b263;}
-.bg_color_coal { background: #121212;}
-.bg_color_silver { background: #e5e5e5;}
-.bg_color_rainbow { background: @brand-more;}
 
 @border-radius-base:        0px;
 @border-radius-large:       0px;
-@border-radius-small:       0px;
+@border-radius-small:       0px; 
 
 
-/*  --------------------------------------------------------------------------------------------------------------------------------------------------- <<<<<< !!!!!
-.bg-img-primary {
-	background: url(/theme_zen/static/img/backgrounds/abstract/bg_abstract_cobalt.jpg) no-repeat center;
-}
-*/
-
-
-@brand-more:			#a181c8;	// violet
-@bg-more:				background(@brand-more);
-@bockquote-more:		background(@bg-more);
 
 /* Background color for `<body>`.*/
 @body-bg:               #fff; 
@@ -143,8 +85,8 @@
 /* 
 /* ## Font, line-height, and color for body text, headings, and more.*/
 
-@font-family-sans-serif:  "Helvetica Neue", Helvetica, Arial, sans-serif;
-@font-family-serif:       "Lato", "Times New Roman", Times, serif;
+@font-family-sans-serif:  "Oxygen-Regular", Helvetica, Arial, sans-serif;
+@font-family-serif:       "Bitter-Regular", "Times New Roman", Times, serif;
 /* Default monospace fonts for `<code>`, `<kbd>`, and `<pre>`.*/
 @font-family-monospace:   Menlo, Monaco, Consolas, "Courier New", monospace;
 @font-family-base:        @font-family-serif;
@@ -191,40 +133,39 @@
 
 /*  Fonts ---------------------------------------------------*/
 
-/* Bebas Neue */
-
 @font-face {
-	font-family: 'BebasNeue Book';
-	src: url('/theme_zen/static/font/BebasNeue Book.ttf');
-	src: local('BebasNeue Book'), url('/theme_zen/static/font/BebasNeue Book.ttf') format('truetype');
+	font-family: 'Oxygen-Light.ttf';
+	src: url('/theme_zen/static/font/Oxygen-Light.ttf');
+	src: local('Oxygen-Light.ttf'), url('/theme_zen/static/font/Oxygen-Light.ttf') format('truetype');
 }
 
 @font-face {
-	font-family: 'BebasNeue Regular';
-	src: url('/theme_zen/static/font/BebasNeue Regular.ttf');
-	src: local('BebasNeue Regular'), url('/theme_zen/static/font/BebasNeue Regular.ttf') format('truetype');
+	font-family: 'Oxygen-Regular';
+	src: url('/theme_zen/static/font/Oxygen-Regular.ttf');
+	src: local('Oxygen-Regular'), url('/theme_zen/static/font/Oxygen-Regular.ttf') format('truetype');
 }
 
 @font-face {
-	font-family: 'BebasNeue Bold';
-	src: url('/theme_zen/static/font/BebasNeue Bold.ttf');
-	src: local('BebasNeue Bold'), url('/theme_zen/static/font/BebasNeue Bold.ttf') format('truetype');
+	font-family: 'Oxygen-Bold';
+	src: url('/theme_zen/static/font/Oxygen-Bold.ttf');
+	src: local('Oxygen-Bold'), url('/theme_zen/static/font/Oxygen-Bold.ttf') format('truetype');
 }
 
 /* use this class to attach this font to any element i.e. <p class="fontsforweb_fontid_1962">Text with this font applied</p> */
+
 .fontsforweb_fontid_1962 {
-	font-family: 'BebasNeue Book' !important;
+	font-family: 'Oxygen-Light' !important;
+}
+.fontsforweb_fontid_1962 {
+	font-family: 'Oxygen-Bold' !important;
 }
 
 .fontsforweb_fontid_1962 {
-	font-family: 'BebasNeue Regular' !important;
+	font-family: 'Oxygen-Regular' !important;
 }
 
-.fontsforweb_fontid_1962 {
-	font-family: 'BebasNeue Bold' !important;
-}
 
-/* Bitter */
+
 
 @font-face {
 	font-family: 'Bitter-Italic';
@@ -256,6 +197,7 @@
 .fontsforweb_fontid_1962 {
 	font-family: 'Bitter-Bold' !important;
 }
+
 
 
 
