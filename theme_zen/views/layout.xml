@@ -166,6 +166,17 @@
 </template>
 -->
 
+  <template id="assets_frontend" inherit_id="website.assets_frontend" name="My Theme Front End Assets">
+   <xpath expr="." position="inside">
+    <script src="/theme_zen/static/lib/Three.js"></script>
+    <script src="/theme_zen/static/lib/Detector.js"></script>
+    <script src="/theme_zen/static/lib/RequestAnimationFrame.js"></script>
+    <script src="/theme_zen/static/js/theme_zen.js"></script>
+    <link rel="stylesheet" type="text/css" href="/theme_zen/static/css/global_theme.css" />
+   </xpath>
+  </template>
+
+
 
 <template id="theme_zen.theme_zen_purple" name="Theme Zen" inherit_id="website.theme" optional="disabled">
     <xpath expr="//link[@id='bootstrap_css']" position="replace">

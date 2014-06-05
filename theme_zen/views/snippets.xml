@@ -10,7 +10,27 @@
     </xpath>
     <xpath expr="//div[@class='tab-content']" position="inside">
         <div id="snippet_zen" class="tab-pane fade">
-
+        
+        <!-- Banner WebGl -->
+     <div>
+      <div class="oe_snippet_thumbnail">
+       <img class="oe_snippet_thumbnail_img" src="/website/static/src/img/blocks/block_text_block.png" />
+       <span class="oe_snippet_thumbnail_title">WebGL Banner</span>
+      </div>
+      <section class="oe_snippet_body mt0 mb0 particle_banner" style="max-height:500px;">
+       <div class="particle_banner_container"></div>
+       <div class="container">
+        <div class="row">
+         <div class="col-md-12 text-center mt92">
+          <h1>A Section title</h1>
+          <h2>A Section Subtitle</h2>
+         </div>
+        </div>
+       </div>
+      </section>
+     </div>
+     <!-- /Banner WebGl -->
+        
         <!-- Title -->
         <div>
             <div class="oe_snippet_thumbnail">
