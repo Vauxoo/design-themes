@@ -1,9 +1,9 @@
 {
-    'name': 'Zen Theme',
-    'description': 'Zen Theme',
+    'name': 'Vauxoo Theme',
+    'description': 'Zen Theme for Vauxoo',
     'category': 'Website',
     'version': '1.0',
-    'author': 'OpenERP SA',
+    'author': 'OpenERP SA & Vauxoo',
     'depends': ['website'],
     'data': [
         'views/layout.xml',
