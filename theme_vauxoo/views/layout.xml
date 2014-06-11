@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+<data>
+
+<template id="themes_page" inherit_id="website.themes">
+    <xpath expr="//div[@id='themes-list']" position="before">
+        <div class="col-md-4">
+            <div class="well text-center">
+                <div class="image">
+                    <img src="/theme_zen/static/img/palette/theme_zen_blue.jpg" class="img-responsive" alt="Zen Theme"/>
+                </div>
+                <div class="options">
+                    <h3>Zen Theme Blue</h3>
+                    <a class="btn btn-info" href="/website/theme_change?theme_id=theme_zen.theme_zen_blue">Apply</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="well text-center">
+                <div class="image">
+                    <img src="/theme_zen/static/img/palette/theme_zen_black.jpg" class="img-responsive" alt="Zen Theme"/>
+                </div>
+                <div class="options">
+                    <h3>Zen Theme Black</h3>
+                    <a class="btn btn-info" href="/website/theme_change?theme_id=theme_zen.theme_zen_black">Apply</a>
+                </div>
+            </div>
+        </div>
+		<div class="col-md-4">
+            <div class="well text-center">
+                <div class="image">
+                    <img src="/theme_zen/static/img/palette/theme_zen_white.jpg" class="img-responsive" alt="Zen Theme"/>
+                </div>
+                <div class="options">
+                    <h3>Zen Theme White</h3>
+                    <a class="btn btn-info" href="/website/theme_change?theme_id=theme_zen.theme_zen_white">Apply</a>
+                </div>
+            </div>
+        </div>
+		
+		
+		<!--
+        <div class="col-md-4">
+            <div class="well text-center">
+                <div class="image">
+                    <img src="/theme_zen/static/img/palette/theme_zen_yellow.jpg" class="img-responsive" alt="Zen Theme"/>
+                </div>
+                <div class="options">
+                    <h3>Zen Theme Yellow</h3>
+                    <a class="btn btn-info" href="/website/theme_change?theme_id=theme_zen.theme_zen_yellow">Apply</a>
+                </div>
+            </div>
+        </div>
+		
+        <div class="col-md-4">
+            <div class="well text-center">
+                <div class="image">
+                    <img src="/theme_zen/static/img/palette/theme_zen_green.jpg" class="img-responsive" alt="Zen Theme"/>
+                </div>
+                <div class="options">
+                    <h3>Zen Theme Green</h3>
+                    <a class="btn btn-info" href="/website/theme_change?theme_id=theme_zen.theme_zen_green">Apply</a>
+                </div>
+            </div>
+        </div>
+		-->
+        <div class="col-md-4">
+            <div class="well text-center">
+                <div class="image">
+                    <img src="/theme_zen/static/img/palette/theme_zen_orange.jpg" class="img-responsive" alt="Zen Theme"/>
+                </div>
+                <div class="options">
+                    <h3>Zen Theme Orange</h3>
+                    <a class="btn btn-info" href="/website/theme_change?theme_id=theme_zen.theme_zen_orange">Apply</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="well text-center">
+                <div class="image">
+                    <img src="/theme_zen/static/img/palette/theme_zen_pink.jpg" class="img-responsive" alt="Zen Theme"/>
+                </div>
+                <div class="options">
+                    <h3>Zen Theme Pink</h3>
+                    <a class="btn btn-info" href="/website/theme_change?theme_id=theme_zen.theme_zen_pink">Apply</a>
+                </div>
+            </div>
+        </div>
+		<!--
+        <div class="col-md-4">
+            <div class="well text-center">
+                <div class="image">
+                    <img src="/theme_zen/static/img/palette/theme_zen_red.jpg" class="img-responsive" alt="Zen Theme"/>
+                </div>
+                <div class="options">
+                    <h3>Zen Theme Red</h3>
+                    <a class="btn btn-info" href="/website/theme_change?theme_id=theme_zen.theme_zen_red">Apply</a>
+                </div>
+            </div>
+        </div>
+	
+		<div class="col-md-4">
+            <div class="well text-center">
+                <div class="image">
+                    <img src="/theme_zen/static/img/palette/theme_zen_brown.jpg" class="img-responsive" alt="Zen Theme"/>
+                </div>
+                <div class="options">
+                    <h3>Zen Theme Brown</h3>
+                    <a class="btn btn-info" href="/website/theme_change?theme_id=theme_zen.theme_zen_brown">Apply</a>
+                </div>
+            </div>
+        </div>
+		-->
+		<div class="col-md-4">
+            <div class="well text-center">
+                <div class="image">
+                    <img src="/theme_zen/static/img/palette/theme_zen_purple.jpg" class="img-responsive" alt="Zen Theme"/>
+                </div>
+                <div class="options">
+                    <h3>Zen Theme Purple</h3>
+                    <a class="btn btn-info" href="/website/theme_change?theme_id=theme_zen.theme_zen_purple">Apply</a>
+                </div>
+            </div>
+        </div>
+    </xpath>
+</template>
+
+<template id="theme_zen.theme_zen_blue" name="Theme Zen" inherit_id="website.theme" optional="disabled">
+    <xpath expr="//link[@id='bootstrap_css']" position="replace">
+        <link rel="stylesheet" type="text/css" href="/theme_zen/static/css/theme_zen_blue.css" t-ignore="true"/>
+    </xpath>
+</template>
+<template id="theme_zen.theme_zen_black" name="Theme Zen" inherit_id="website.theme" optional="disabled">
+    <xpath expr="//link[@id='bootstrap_css']" position="replace">
+        <link rel="stylesheet" type="text/css" href="/theme_zen/static/css/theme_zen_black.css" t-ignore="true"/>
+    </xpath>
+</template>
+<template id="theme_zen.theme_zen_white" name="Theme Zen" inherit_id="website.theme" optional="disabled">
+    <xpath expr="//link[@id='bootstrap_css']" position="replace">
+        <link rel="stylesheet" type="text/css" href="/theme_zen/static/css/theme_zen_white.css" t-ignore="true"/>
+    </xpath>
+</template>
+<!--
+<template id="theme_zen.theme_zen_green" name="Theme Zen" inherit_id="website.theme" optional="disabled">
+    <xpath expr="//link[@id='bootstrap_css']" position="replace">
+        <link rel="stylesheet" type="text/css" href="/theme_zen/static/css/theme_zen_green.css" t-ignore="true"/>
+    </xpath>
+</template>
+-->
+<template id="theme_zen.theme_zen_orange" name="Theme Zen" inherit_id="website.theme" optional="disabled">
+    <xpath expr="//link[@id='bootstrap_css']" position="replace">
+        <link rel="stylesheet" type="text/css" href="/theme_zen/static/css/theme_zen_orange.css" t-ignore="true"/>
+    </xpath>
+</template>
+<template id="theme_zen.theme_zen_pink" name="Theme Zen" inherit_id="website.theme" optional="disabled">
+    <xpath expr="//link[@id='bootstrap_css']" position="replace">
+        <link rel="stylesheet" type="text/css" href="/theme_zen/static/css/theme_zen_pink.css" t-ignore="true"/>
+    </xpath>
+</template>
+
+<!-- 
+<template id="theme_zen.theme_zen_red" name="Theme Zen" inherit_id="website.theme" optional="disabled">
+    <xpath expr="//link[@id='bootstrap_css']" position="replace">
+        <link rel="stylesheet" type="text/css" href="/theme_zen/static/css/theme_zen_red.css" t-ignore="true"/>
+    </xpath>
+</template>
+-->
+
+  <template id="assets_frontend" inherit_id="website.assets_frontend" name="My Theme Front End Assets">
+   <xpath expr="." position="inside">
+    <script src="/theme_zen/static/lib/Three.js"></script>
+    <script src="/theme_zen/static/lib/Detector.js"></script>
+    <script src="/theme_zen/static/lib/RequestAnimationFrame.js"></script>
+    <script src="/theme_zen/static/js/theme_zen.js"></script>
+    <link rel="stylesheet" type="text/css" href="/theme_zen/static/css/global_theme.css" />
+   </xpath>
+  </template>
+
+
+
+<template id="theme_zen.theme_zen_purple" name="Theme Zen" inherit_id="website.theme" optional="disabled">
+    <xpath expr="//link[@id='bootstrap_css']" position="replace">
+        <link rel="stylesheet" type="text/css" href="/theme_zen/static/css/theme_zen_purple.css" t-ignore="true"/>
+    </xpath>
+</template>
+
+</data>
+</openerp>
+

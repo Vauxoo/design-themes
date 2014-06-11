@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+ <data>
+  <template id="gourman_website_options_pattern" inherit_id="website.snippet_options">
+   <xpath expr="//div[@data-snippet-option-id='background']//ul[@class='dropdown-menu'][1]" position="inside">
+    <li class="dropdown-submenu">
+     <a tabindex="-1" href="#">Zen Backgrounds</a>
+     <ul class="dropdown-menu">	 
+
+        
+		<li data-value="bg_zen_blue">
+         <a>Blue</a>
+        </li>
+		
+        <li data-value="bg_zen_yellow">
+         <a>Yellow</a>
+        </li>
+		
+		<li data-value="bg_zen_red">
+         <a>Red</a>
+        </li>
+		
+		<li data-value="bg_zen_pink">
+         <a>Pink</a>
+        </li>
+		
+		<li data-value="bg_zen_green">
+         <a>Green</a>
+        </li>
+		
+		<li data-value="bg_zen_orange">
+         <a>Orange</a>
+        </li>
+		
+		<li data-value="bg_zen_purple">
+         <a>Purple</a>
+        </li>
+		
+		<li data-value="bg_zen_brown">
+         <a>Brown</a>
+        </li>
+		
+		<li data-value="bg_zen_dark">
+         <a>Dark</a>
+        </li>
+		
+		 <li data-value="bg_zen_gray">
+         <a>Gray</a>
+        </li>
+		
+ 
+     </ul>
+    </li>
+   </xpath>
+   
+ 
+   
+      <xpath expr="//div[@data-snippet-option-id='background']//ul[@class='dropdown-menu'][1]" position="inside">
+    <li class="dropdown-submenu">
+     <a tabindex="-1" href="#">Zen Colors</a>
+     <ul class="dropdown-menu">
+  
+  
+		 <li data-value="bg_color_gray">
+         <a><i class="fa fa-square" style="color:#e9e9e9"></i> Gray</a>
+        </li>
+
+        <li data-value="bg_color_yellow">
+         <a><i class="fa fa-square" style="color:#d4b842"></i> Yellow</a>
+        </li>
+        
+		<li data-value="bg_color_orange">
+         <a><i class="fa fa-square" style="color:#ff6a00"></i> Orange</a>
+        </li>
+		
+		<li data-value="bg_color_red">
+         <a><i class="fa fa-square" style="color:#cb0f0e"></i> Red</a>
+        </li>
+		
+		<li data-value="bg_color_pink">
+         <a><i class="fa fa-square" style="color:#ea3e9d"></i> Pink</a>
+        </li>
+				
+		<li data-value="bg_color_purple">
+         <a><i class="fa fa-square" style="color:#6c1eb3"></i> Purple</a>
+        </li>
+		
+		<li data-value="bg_color_blue">
+         <a><i class="fa fa-square" style="color: #4E8FB4"></i> Blue</a>
+        </li>
+		
+		<li data-value="bg_color_green">
+         <a><i class="fa fa-square" style="color:#64b725"></i> Green</a>
+        </li>
+
+		<li data-value="bg_color_brown">
+         <a><i class="fa fa-square" style="color: #7C4B30"></i> Brown</a>
+        </li>
+		
+		<li data-value="bg_color_dark">
+         <a><i class="fa fa-square" style="color:#111111"></i> Dark</a>
+        </li>
+		
+
+	</ul>
+    </li>
+   </xpath>
+	  
+	  
+	        <xpath expr="//div[@data-snippet-option-id='background']//ul[@class='dropdown-menu'][1]" position="inside">
+    <li class="dropdown-submenu">
+     <a tabindex="-1" href="#">Zen Colors Light</a>
+     <ul class="dropdown-menu">
+
+        <li data-value="bg_color_gray_light">
+         <a><i class="fa fa-square" style="color:#f5f5f5"></i> Gray</a>
+        </li>
+
+        <li data-value="bg_color_yellow_light">
+         <a><i class="fa fa-square" style="color:#fff9b9"></i> Yellow</a>
+        </li>
+        
+		<li data-value="bg_color_orange_light">
+         <a><i class="fa fa-square" style="color: #FFA86B"></i> Orange</a>
+        </li>
+		
+		<li data-value="bg_color_red_light">
+         <a><i class="fa fa-square" style="color: #F35C5B"></i> Red</a>
+        </li>
+		
+		<li data-value="bg_color_pink_light">
+         <a><i class="fa fa-square" style="color: #F391C7"></i> Pink</a>
+        </li>
+				
+		<li data-value="bg_color_purple_light">
+         <a><i class="fa fa-square" style="color: #9F7CE8"></i> Purple</a>
+        </li>
+		
+		<li data-value="bg_color_blue_light">
+         <a><i class="fa fa-square" style="color: #A2C9E0"></i> Blue</a>
+        </li>
+		
+		<li data-value="bg_color_green_light">
+         <a><i class="fa fa-square" style="color: #AAF06A"></i> Green</a>
+        </li>
+
+		<li data-value="bg_color_brown_light">
+         <a><i class="fa fa-square" style="color: #A89A91"></i> Brown</a>
+        </li>
+		
+		<li data-value="bg_color_dark_light">
+         <a><i class="fa fa-square" style="color: #5B5B5B"></i> Dark</a>
+        </li>
+		
+ 	</ul>
+    </li>
+   </xpath>
+	  
+	<xpath expr="//div[@data-snippet-option-id='background']//ul[@class='dropdown-menu'][1]" position="inside">
+    <li class="dropdown-submenu">
+     <a tabindex="-1" href="#">Zen Colors Dark</a>
+     <ul class="dropdown-menu">
+
+		<li data-value="bg_color_gray_dark">
+         <a><i class="fa fa-square" style="color:#d5d5d5"></i> Gray</a>
+        </li>
+
+        <li data-value="bg_color_yellow_dark">
+         <a><i class="fa fa-square" style="color: #A68F35"></i> Yellow</a>
+        </li>
+        
+		<li data-value="bg_color_orange_dark">
+         <a><i class="fa fa-square" style="color: #BE3B00"></i> Orange</a>
+        </li>
+		
+		<li data-value="bg_color_red_dark">
+         <a><i class="fa fa-square" style="color: #AB0000"></i> Red</a>
+        </li>
+		
+		<li data-value="bg_color_pink_dark">
+         <a><i class="fa fa-square" style="color: #8A074F"></i> Pink</a>
+        </li>
+				
+		<li data-value="bg_color_purple_dark">
+         <a><i class="fa fa-square" style="color: #53168A"></i> Purple</a>
+        </li>
+		
+		<li data-value="bg_color_blue_dark">
+         <a><i class="fa fa-square" style="color: #286A8F"></i> Blue</a>
+        </li>
+		
+		<li data-value="bg_color_green_dark">
+         <a><i class="fa fa-square" style="color: #3B8604"></i> Green</a>
+        </li>
+
+		<li data-value="bg_color_brown_dark">
+         <a><i class="fa fa-square" style="color: #422B1E"></i> Brown</a>
+        </li>
+		
+		<li data-value="bg_color_dark_dark">
+         <a><i class="fa fa-square" style="color:#111111"></i> Dark</a>
+        </li>
+		
+	</ul>
+    </li>
+   </xpath>
+
+   
+  </template>
+ </data>
+</openerp>

@@ -1,0 +1,685 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<openerp>
+<data>
+
+<template id="theme_zen.snippets" inherit_id="website.snippets" name="Zen Theme snippets">
+    <xpath expr="//ul[@class='nav navbar-nav nav-tabs']" position="inside">
+        <li><a href="#snippet_zen" data-toggle="tab">Zen</a></li>
+    </xpath>
+    <xpath expr="//div[@class='tab-content']" position="inside">
+        <div id="snippet_zen" class="tab-pane fade">
+        
+        <!-- Banner WebGl -->
+     <div>
+      <div class="oe_snippet_thumbnail">
+       <img class="oe_snippet_thumbnail_img" src="/website/static/src/img/blocks/block_text_block.png" />
+       <span class="oe_snippet_thumbnail_title">WebGL Banner</span>
+      </div>
+      <section class="oe_snippet_body mt0 mb0 particle_banner" style="max-height:500px;">
+       <div class="particle_banner_container"></div>
+       <div class="container">
+        <div class="row">
+         <div class="col-md-12 text-center mt92">
+          <h1>A Section title</h1>
+          <h2>A Section Subtitle</h2>
+         </div>
+        </div>
+       </div>
+      </section>
+     </div>
+     <!-- /Banner WebGl -->
+        
+        <!-- Title -->
+        <div>
+            <div class="oe_snippet_thumbnail">
+                <img class="oe_snippet_thumbnail_img" src="/website/static/src/img/blocks/block_title.png" />
+                <span class="oe_snippet_thumbnail_title">Title</span>
+            </div>
+            <section class="oe_snippet_body mt0 mb32 fw_categories">       
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12 text-center">
+              <h2>A great Title</h2>
+              <h3 class="text-muted">And a great subtitle too</h3>
+            </div>
+          </div>
+        </div>
+            </section>
+        </div>
+		<!-- /Title -->
+		
+		<!-- Text -->
+        <div>
+            <div class="oe_snippet_thumbnail">
+                <img class="oe_snippet_thumbnail_img" src="/website/static/src/img/blocks/block_text_block.png" />
+                <span class="oe_snippet_thumbnail_title">Text</span>
+            </div>
+            <section class="oe_snippet_body mt0 mb32 fw_categories">       
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12 text-center">
+              <h2>A Section title</h2>
+              <h3 class="text-muted">A Section Subtitle</h3>
+              <p class="text-justify">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem. Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius.</p>
+            </div>
+          </div>
+        </div>
+            </section>
+        </div>
+		<!-- /Text -->
+		
+		
+		<!-- 1 img left 1 p -->
+			<div>
+            <div class="oe_snippet_thumbnail">
+                <img class="oe_snippet_thumbnail_img" src="/website/static/src/img/blocks/block_image_text.png" />
+                <span class="oe_snippet_thumbnail_title">Image Text</span>
+            </div>
+            <section class="oe_snippet_body fw_categories">
+                <div class="container">
+          <div class="row">
+            <div class="col-md-6 mt16">
+              <img src="/theme_zen/static/img/library/thumb/thumb_600x300.jpg" class="img img-responsive shadow mb16"/>
+            </div>
+            <div class="mt16 col-md-5 col-md-offset-1">
+              <h3>A Section title</h3>
+              <h4 class="text-primary">A Section Subtitle</h4>
+              <p class="text-justify">Write one or two paragraphs describing your product, services or a specific feature. To be successful your content needs to be useful to your readers. Start with the customer find out what they want and give it to them.</p>
+              </div>
+          </div>
+        </div>
+            </section>
+        </div>
+		
+		<!-- 1 img left 1 p lightbox
+			<div>
+            <div class="oe_snippet_thumbnail">
+                <img class="oe_snippet_thumbnail_img" src="/website/static/src/img/blocks/block_image_text.png" />
+                <span class="oe_snippet_thumbnail_title">Image Text 2</span>
+            </div>
+            <section class="oe_snippet_body fw_categories">
+                <div class="container">
+          <div class="row">
+            <div class="col-md-6 mt16">
+            <ul class="lb-album">
+					<li>
+            <a href="#image-1"><img src="/theme_zen/static/img/library/thumb/thumb_600x300.jpg" class="img img-responsive shadow mb16"/></a>
+			<span>Light Box</span>
+            <div class="lb-overlay" id="image-1">
+							<img src="/theme_zen/static/img/gallery/home1.jpg" alt="image01" />
+							<div>
+							  <h3>Light Box<span>/preview/</span></h3>
+								<p>A simple CSS-only lightbox experiment</p>
+								<a href="#image-10" class="lb-prev">Prev</a>
+								<a href="#image-2" class="lb-next">Next</a>
+			  </div>
+							<a href="#page" class="lb-close">x Close</a>
+					  </div>
+              </li>
+					
+				</ul>
+            </div>
+            <div class="mt16 col-md-5 col-md-offset-1">
+              <h3>A Section title</h3>
+              <h5 class="text-primary">A Section Subtitle</h5>
+              <p class="text-justify">Write one or two paragraphs describing your product, services or a specific feature. To be successful your content needs to be useful to your readers. Start with the customer find out what they want and give it to them.</p>
+            <a class="btn btn-primary active pull-right mt16" href="#"><i class="glyphicon glyphicon-plus-sign"></i> A read more link</a> </div>
+          </div>
+        </div>
+            </section>
+        </div>
+		
+		1 img left 1 p lightbox-->
+		
+		<!-- 2 col -->
+
+		<div>
+            <div class="oe_snippet_thumbnail">
+                <img class="oe_snippet_thumbnail_img" src="/website/static/src/img/blocks/block_three_columns.png" />
+                <span class="oe_snippet_thumbnail_title">2 Columns</span>
+            </div>
+            <section class="oe_snippet_body mt0 mb32 fw_categories">
+        <div class="container">
+          <div class="row zen_3col_padding">
+            <div class="col-md-5">
+              <img src="/theme_zen/static/img/library/thumb/thumb_400x300.jpg" style="" class="img img-responsive shadow"/>
+			   
+              <h3 class="mt64">A Section title</h3>
+              <h5 class="text-primary">A Section Subtitle</h5>
+              <p class="text-justify mt16">Adapt these three columns to fit you design need. To duplicate, delete or move columns, select the column and use the top icons to perform your action.</p>
+              
+            </div>
+            <div class="col-md-5 col-md-offset-2">
+              <img src="/theme_zen/static/img/library/thumb/thumb_400x300.jpg" style="" class="img img-responsive shadow"/>
+			   
+              <h3 class="mt64">A Section title</h3>
+              <h5 class="text-primary">A Section Subtitle</h5>
+              <p class="text-justify mt16">To add a fourth column, reduce the size of these three columns using the right icon of each block. Then, duplicate one of the column to create a new one as a copy.</p>
+              
+            </div>
+            
+          </div>
+        </div>
+      </section>
+        </div>
+
+		<!-- / 2 col -->
+		
+		<!-- 3 columns -->
+        <div>
+            <div class="oe_snippet_thumbnail">
+                <img class="oe_snippet_thumbnail_img" src="/website/static/src/img/blocks/block_three_columns.png" />
+                <span class="oe_snippet_thumbnail_title">3 Columns</span>
+            </div>
+            <section class="oe_snippet_body mt0 mb32 fw_categories">
+        <div class="container">
+          <div class="row zen_3col_padding">
+            <div class="col-md-4">
+              <img src="/theme_zen/static/img/library/thumb/thumb_300x200.jpg" style="" class="img img-responsive shadow"/>
+			   
+              <h3 class="mt64">A Section title</h3>
+              <h5 class="text-primary">A Section Subtitle</h5>
+              <p class="text-justify mt16">Adapt these three columns to fit you design need. To duplicate, delete or move columns, select the column and use the top icons to perform your action.</p>
+              
+            </div>
+            <div class="col-md-4">
+              <img src="/theme_zen/static/img/library/thumb/thumb_300x200.jpg" style="" class="img img-responsive shadow"/>
+			   
+              <h3 class="mt64">A Section title</h3>
+              <h5 class="text-primary">A Section Subtitle</h5>
+              <p class="text-justify mt16">To add a fourth column, reduce the size of these three columns using the right icon of each block. Then, duplicate one of the column to create a new one as a copy.</p>
+              
+            </div>
+            <div class="col-md-4">
+              <img src="/theme_zen/static/img/library/thumb/thumb_300x200.jpg" style="" class="img img-responsive shadow"/>
+			   
+              <h3 class="mt64">A Section title</h3>
+              <h5 class="text-primary">A Section Subtitle</h5>
+              <p class="text-justify mt16">Delete the above image or replace it with a picture that illustrates your message. Click on the picture to change it's rounded corner style.</p>
+
+            </div>
+          </div>
+        </div>
+      </section>
+        </div>
+		<!-- /3 columns -->
+		
+		<!-- 4 col -->
+
+	<div>
+            <div class="oe_snippet_thumbnail">
+                <img class="oe_snippet_thumbnail_img" src="/website/static/src/img/blocks/block_three_columns.png" />
+                <span class="oe_snippet_thumbnail_title">4 Columns</span>
+            </div>
+        
+	<section class="oe_snippet_body mt0 mb32 fw_categories">
+        <div class="container">
+          <div class="row zen_3col_padding">
+            
+			<div class="col-md-3">
+              <img src="/theme_zen/static/img/library/thumb/thumb_200x200.jpg" style="" class="img img-responsive shadow"/>
+              <h3 class="mt64">A Section title</h3>
+              <h5 class="text-primary">A Section Subtitle</h5>
+              <p class="text-justify mt16">Adapt these three columns to fit you design need. To duplicate, delete or move columns, select the column and use the top icons to perform your action.</p>
+             </div>
+			  
+            <div class="col-md-3">
+              <img src="/theme_zen/static/img/library/thumb/thumb_200x200.jpg" style="" class="img img-responsive shadow"/>
+              <h3 class="mt64">A Section title</h3>
+              <h5 class="text-primary">A Section Subtitle</h5>
+              <p class="text-justify mt16">To add a fourth column, reduce the size of these three columns using the right icon of each block. Then, duplicate one of the column to create a new one as a copy.</p>
+              </div>
+			  
+            <div class="col-md-3">
+              <img src="/theme_zen/static/img/library/thumb/thumb_200x200.jpg" style="" class="img img-responsive shadow"/>
+              <h3 class="mt64">A Section title</h3>
+              <h5 class="text-primary">A Section Subtitle</h5>
+              <p class="text-justify mt16">Delete the above image or replace it with a picture that illustrates your message. Click on the picture to change it's rounded corner style.</p>
+			</div>
+			
+            <div class="col-md-3">
+              <img src="/theme_zen/static/img/library/thumb/thumb_200x200.jpg" style="" class="img img-responsive shadow"/>
+              <h3 class="mt64">A Section title</h3>
+              <h5 class="text-primary">A Section Subtitle</h5>
+              <p class="text-justify mt16">Delete the above image or replace it with a picture that illustrates your message. Click on the picture to change it's rounded corner style.</p>
+			</div>
+            
+
+          </div>
+        </div>
+      </section>
+        </div>
+
+	<!-- / 4 col -->
+		
+		<!-- Headerwrap Image-->
+        <div>
+            <div class="oe_snippet_thumbnail">
+                <img class="oe_snippet_thumbnail_img" src="/website/static/src/img/blocks/block_parallax.png" />
+                <span class="oe_snippet_thumbnail_title">Big Header Image</span>
+            </div>
+            <section class="oe_snippet_body mb32 mt0 fw_categories headerwrap_container bg_zen_blue bg_headerwrap">
+                <div class="container-fluid">
+                    <div class="row">
+
+						<div class="clearfix">
+	  		 			<div class="mini_profile_img mb32 text-center animated fadeInDown">
+                		<img src="/theme_zen/static/img/zen_logo.png" alt="Me" class="img-circle center-block img-responsive animated fadeIn"/>
+	  		 		<h1 class="headerwrap_heading">Zen . A Odoo 3 Theme</h1>
+	 		 		 <p class="text-muted">Big Header with Background Image</p>
+   
+	    	</div>
+                    </div>
+                </div>
+				</div>
+            </section>
+        </div>
+		<!-- /Headerwrap -->
+		<!-- Mini Profile -->
+        <div>
+            <div class="oe_snippet_thumbnail">
+                <img class="oe_snippet_thumbnail_img" src="/website/static/src/img/blocks/block_image_text.png" />
+                <span class="oe_snippet_thumbnail_title">Mini Profile</span>
+            </div>
+            <section class="oe_snippet_body mb64 mt0 fw_categories">
+				<div class="container">
+                    <div class="row">
+                      <div class="col-md-5 text-center miniprofile">
+					  <img src="/theme_zen/static/img/zen_id.png" alt="me" class="img-circle miniprofile_img_id center-block img-responsive"/>
+					  <img alt="140x140" class="img-responsive miniprofile_img_bg" src="/theme_zen/static/img/backgrounds/zen/miniprofile_zen_blue.jpg" />
+					  <p><h4 class="miniprofile_name">- Your Name -</h4>
+                        <h3 class="miniprofile_name mt0 mb32">Job / Fonction</h3></p>
+                        
+                        <p class="mb32">
+						<a href="#"><strong>Company, Inc. </strong></a>
+                        <a href="#"><i class="fa fa-facebook"></i></a>
+						<a href="#"><i class="fa fa-google-plus"></i></a>
+                        <a href="#"><i class="fa fa-linkedin"></i></a>
+                        <a href="#"><i class="fa fa-twitter"></i></a>
+						</p>
+                         
+                        <address><small>
+                        <p class="mb32">
+                        795 Folsom Ave, Suite 600 - San Francisco, CA 94107<br />
+						 
+						<i class="fa fa-phone"></i> (123) 456-7890<br />
+                        <i class="fa fa-envelope"></i> yourmail@yourcompany.com</p></small></address>
+                        
+                      </div>  
+                      <div class="col-md-6 col-md-offset-1">
+                      <blockquote class="mt32 mb64">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        <small>Someone famous<cite>Source Title</cite></small></blockquote>
+                        
+                        <div class="col-md-4 text-center"><i class="fa fa-key fa-5x"></i><br />KEY</div>
+                        <div class="col-md-4 text-center"><i class="fa fa-signal fa-5x"></i><br />CHART</div>
+                        <div class="col-md-4 text-center mb64"><i class="fa fa-bullseye fa-5x"></i><br />TARGET</div>
+                        
+                      <h4>Describe your fonction</h4>
+                        <p class="text-justify mb32">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.</p>
+                        <h4>Describe your skills</h4>
+                        <p class="text-justify mb32">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.</p>
+   
+                    </div></div>
+                </div>
+            </section>
+        </div>
+
+		<!-- /Mini Profile -->
+		
+	        <!--Jumbotron -->
+        <div>
+            <div class="oe_snippet_thumbnail">
+                <img class="oe_snippet_thumbnail_img" src="/website/static/src/img/blocks/block_jumbotron.png" />
+                <span class="oe_snippet_thumbnail_title">Jumbotron</span>
+            </div>
+            
+			<section class="oe_snippet_body mt0 mb32 fw_categories jumbotron_container bg_zen_blue bg_headerwrap">       
+		<div class="container-fluid">
+		<div class="row">
+
+						<div class="jumbotron_content">
+          <h1 class="jumbotron_heading animated fadeInRight">Sell Online. Easily.</h1>
+          <p>Write one sentence to convince visitor about your message.</p>
+          <p>
+            <a href="/page/website.contactus" class="btn btn-lg btn-primary">Contact us </a>
+          </p>
+		  </div>
+
+		</div>
+		</div>
+            </section>
+        </div>
+		<!--/Jumbotron -->
+		
+		<!--Banner Carousel -->
+		
+		<div>
+            <div class="oe_snippet_thumbnail">
+                <img class="oe_snippet_thumbnail_img" src="/website/static/src/img/blocks/block_banner.png" />
+                <span class="oe_snippet_thumbnail_title">Banner Carousel</span>
+            </div>
+		<section class="oe_snippet_body mt0 mb32 fw_categories bg_zen_blue">	
+		<div style="height: 320px;" class="carousel slide mb32" id="myCarousel0">
+        <ol class="carousel-indicators">
+          <li data-slide-to="0" class="active" data-target="#myCarousel0"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div style="background-image: url(/theme_zen/static/img/backgrounds/zen/bg_zen_blue.jpg)" class="item image_text active">
+            <div class="container">
+              <div class="row content">
+                <div class="col-md-6 col-sm-12 mt48 mb48">
+                  <h1 class="banner_heading">Aïe Pepito!</h1>
+                  <blockquote>
+                        <p>You can add more slides to this banner</p></blockquote>
+                </div>
+                <span class="carousel-img col-md-6 hidden-sm hidden-xs"><img src="/theme_zen/static/img/zen_img1.png" alt="Odoo Theme" class="carousel-image img-responsive center-block"/></span>
+              </div>
+            </div>
+          </div>
+  </div>
+       
+</div>
+</section>
+</div>
+		<!--/Banner Carousel -->
+
+
+        <!-- blockquote-box -->
+        <div>
+            <div class="oe_snippet_thumbnail">
+                <img class="oe_snippet_thumbnail_img" src="/website/static/src/img/blocks/block_quote.png" />
+                <span class="oe_snippet_thumbnail_title">Quotes Box</span>
+            </div>
+
+            <section class="oe_snippet_body mb32 mt0 zen_quotes_box">
+                <div class="container">
+                    <div class="row">
+                         <h2>Blockquote Box</h2>
+                    <div class="col-md-6">
+                        <div class="blockquote-box blockquote-more clearfix">
+                            <div class="square pull-left"><i class="fa fa-cloud fa-3x"></i></div>
+                            <h4>
+                                Title</h4>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a
+                                ante.
+                            </p>
+                        </div>
+                        <div class="blockquote-box blockquote-primary clearfix">
+                            <div class="square pull-left"><i class="fa fa-music fa-3x"></i></div>
+                            <h4> Title</h4>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a
+                                ante. 
+                            </p>
+                        </div>
+                        <div class="blockquote-box blockquote-success clearfix">
+                            <div class="square pull-left"><i class="fa fa-leaf fa-3x"></i></div>
+                            <h4> Title</h4>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a
+                                ante.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="blockquote-box blockquote-info clearfix">
+                            <div class="square pull-left"><i class="fa fa-trophy fa-3x"></i></div>
+                            <h4> Title</h4>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a
+                                ante.
+                            </p>
+                        </div>
+                        <div class="blockquote-box blockquote-warning clearfix">
+                            <div class="square pull-left"><i class="fa fa-user fa-3x"></i></div>
+                            <h4> Title                            </h4>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a
+                                ante.
+                            </p>
+                        </div>
+                        <div class="blockquote-box blockquote-danger clearfix">
+                            <div class="square pull-left"><i class="fa fa-bell fa-3x"></i></div>
+                            <h4> Title</h4>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a
+                                ante.
+                            </p>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+                
+		
+		<!-- Pricing Tables -->
+
+
+			<div>
+            <div class="oe_snippet_thumbnail">
+                <img class="oe_snippet_thumbnail_img" src="/website/static/src/img/blocks/block_comparison.png" />
+                <span class="oe_snippet_thumbnail_title">Pricinng Tables 1</span>
+            </div>
+            <section class="oe_snippet_body fw_categories">
+            
+            <div class="container zen_pricing">
+			<div class="row">
+
+            <div class="col-md-3 ">
+            <div class="tinyny">
+                <div class="pricing-table-header-tinyny text-center">
+                    <h2>€ 15/mo</h2>
+                    <h3>Tiny</h3>
+                </div>
+                <div class="pricing-table-features">
+                    <p><strong>Unlimited</strong> Email Addresses</p>
+                    <p><strong>50GB</strong> Disk Space</p>
+                    <p><strong>Unlimited</strong> MySQL Databases</p>
+                    <p><strong>Unlimited</strong> Domains</p>
+                    <p><strong>Free</strong> Billing Systems</p>
+                    <button class="btn btn-primary btn-lg mt32" type="button">More Features</button>
+                </div>
+                </div>
+
+            </div>
+ 			<div class="col-md-3">
+            <div class="smally">
+                <div class="pricing-table-header-smally text-center">
+                    <h2>€ 29/mo</h2>
+                    <h3>Small</h3>
+                </div>
+                <div class="pricing-table-features">
+                    <p><strong>Unlimited</strong> Email Addresses</p>
+                    <p><strong>80GB</strong> Disk Space</p>
+                    <p><strong>Unlimited</strong> MySQL Databases</p>
+                    <p><strong>Unlimited</strong> Domains</p>
+                    <p><strong>Free</strong> Billing Systems</p>
+                    <button class="btn btn-primary btn-lg mt32" type="button">More Features</button>
+                </div>
+                </div>
+            </div>
+
+
+            <div class="col-md-3">
+            <div class="mediumy">
+                <div class="pricing-table-header-mediumy text-center">
+                    <h2>€ 69/mo</h2>
+                    <h3>Medium</h3>
+                </div>
+                <div class="pricing-table-features">
+                    <p><strong>Unlimited </strong> Email Addresses</p>
+                    <p><strong>120GB</strong> Disk Space</p>
+                    <p><strong>Unlimited</strong> MySQL Databases</p>
+                    <p><strong>Unlimited</strong> Domains</p>
+                    <p><strong>Free</strong> Billing Systems</p>
+                    <button class="btn btn-primary btn-lg mt32" type="button">More Features</button>
+                </div>
+                </div>
+
+            </div>
+
+            <div class="col-md-3">
+            <div class="propro">
+                <div class="pricing-table-header-propro text-center">
+                    <h2>€ 99/mo</h2>
+                    <h3>Pro</h3>
+                </div>
+                <div class="pricing-table-features">
+                    <p><strong>Unlimited</strong> Email Addresses</p>
+                    <p><strong>120GB</strong> Disk Space</p>
+                    <p><strong>Unlimited</strong> MySQL Databases</p>
+                    <p><strong>Unlimited</strong> Domains</p>
+                    <p><strong>Free</strong> Billing Systems</p>
+                    <button class="btn btn-primary btn-lg mt32" type="button">More Features</button>
+                </div>
+                </div>
+            </div>
+         </div>
+</div>
+                
+      </section>
+        </div>
+
+<!-- /Pricing Tables -->
+
+<!-- Pricing Tables -->
+
+
+			<div>
+            <div class="oe_snippet_thumbnail">
+                <img class="oe_snippet_thumbnail_img" src="/website/static/src/img/blocks/block_comparison.png" />
+                <span class="oe_snippet_thumbnail_title">Pricinng Tables 2</span>
+            </div>
+            <section class="oe_snippet_body fw_categories">
+        <div class="container zen_pricing">
+          <div class="row">
+            <div class="col-md-12 text-center mt16 mb32">
+              <h2>Our Offers</h2>
+              <h3 class="text-muted">Your Georgeous Price Table</h3>
+            </div>
+            <div class="col-md-4">
+              <div class="panel panel-info">
+                <div class="panel-heading text-center">
+                  <h2>Beginner</h2>
+                  <p class="text-muted">Starter package</p>
+                </div>
+                <div class="panel-body text-center">
+                  <h2>
+                    
+                    <p class="price"><small>$</small> 450<small>.00</small></p>
+                    
+                  </h2>
+                  <div>per month</div>
+                </div>
+                <ul class="list-group">
+                  <li class="list-group-item active">Battery: 8 hours</li>
+                  <li class="list-group-item">Screen: 2.5 inch</li>
+                  <li class="list-group-item">Weight: 1.1 ounces</li>
+                  <li class="list-group-item">No support</li>
+                </ul>
+                <div class="panel-footer text-center">
+                  <p class="text-muted">
+                    <i>Free shipping, satisfied or reimbursed.</i>
+                  </p>
+                  <a href="/page/website.contactus" class="btn btn-primary btn-lg">Order now</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="panel panel-primary">
+                <div class="panel-heading text-center">
+                  <h2>Professional</h2>
+                  <p class="text-muted">Enterprise package</p>
+                </div>
+                <div class="panel-body text-center">
+                  <h2>
+                    <p class="price"><small>$</small> 590<small>.00</small></p>
+                  </h2>
+                  <div>per month</div>
+                </div>
+                <ul class="list-group">
+                  <li class="list-group-item active">Battery: 12 hours</li>
+                  <li class="list-group-item">Screen: 2.8 inch</li>
+                  <li class="list-group-item">Weight: 1.2 ounces</li>
+                  <li class="list-group-item">Limited support</li>
+                </ul>
+                <div class="panel-footer text-center">
+                  <p class="text-muted">
+                    <i>Free shipping, satisfied or reimbursed.</i>
+                  </p>
+                  <a href="/page/website.contactus" class="btn btn-primary btn-lg">Order now</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="panel panel-info">
+                <div class="panel-heading text-center">
+                  <h2>Expert</h2>
+                  <p class="text-muted">The top of the top</p>
+                </div>
+                <div class="panel-body text-center">
+                  <h2>
+                    <p class="price"><small>$</small> 650<small>.00</small></p>
+                  </h2>
+                  <div>per month</div>
+                </div>
+                <ul class="list-group">
+                  <li class="list-group-item active">Battery: 20 hours</li>
+                  <li class="list-group-item">Screen: 2.8 inch</li>
+                  <li class="list-group-item">Weight: 1.2 ounces</li>
+                  <li class="list-group-item">Unlimited support</li>
+                </ul>
+                <div class="panel-footer text-center">
+                  <p class="text-muted">
+                    <i>Free shipping, satisfied or reimbursed.</i>
+
+                  </p>
+                  <a href="/page/website.contactus" class="btn btn-primary btn-lg">Contact us</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+        </div>
+
+<!-- /Pricing Tables -->
+
+        </div>
+    </xpath>
+
+    <xpath expr="//div[@id='snippet_content']" position="inside">
+        <!-- Sperator -->
+        <div>
+            <div class="oe_snippet_thumbnail">
+                <img class="oe_snippet_thumbnail_img"
+                    src="/website/static/src/img/blocks/block_separator.png" />
+                <span class="oe_snippet_thumbnail_title fw_primary">Separator</span>
+            </div>
+            <section class="oe_snippet_body fw_separator ">
+                <div class="container">
+                    <div class="row mb32 mt32">
+                        <hr />
+                    </div>
+                </div>
+            </section>
+        </div>
+<!-- Sperator -->
+
+
+
+
+
+
+    </xpath>
+
+</template>
+
+</data>
+</openerp>
+
