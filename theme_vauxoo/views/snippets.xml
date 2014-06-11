@@ -4,7 +4,7 @@
 <openerp>
 <data>
 
-<template id="theme_zen.snippets" inherit_id="website.snippets" name="Zen Theme snippets">
+<template id="theme_vauxoo.snippets" inherit_id="website.snippets" name="Zen Theme snippets">
     <xpath expr="//ul[@class='nav navbar-nav nav-tabs']" position="inside">
         <li><a href="#snippet_zen" data-toggle="tab">Zen</a></li>
     </xpath>
@@ -81,7 +81,7 @@
                 <div class="container">
           <div class="row">
             <div class="col-md-6 mt16">
-              <img src="/theme_zen/static/img/library/thumb/thumb_600x300.jpg" class="img img-responsive shadow mb16"/>
+              <img src="/theme_vauxoo/static/img/library/thumb/thumb_600x300.jpg" class="img img-responsive shadow mb16"/>
             </div>
             <div class="mt16 col-md-5 col-md-offset-1">
               <h3>A Section title</h3>
@@ -105,10 +105,10 @@
             <div class="col-md-6 mt16">
             <ul class="lb-album">
 					<li>
-            <a href="#image-1"><img src="/theme_zen/static/img/library/thumb/thumb_600x300.jpg" class="img img-responsive shadow mb16"/></a>
+            <a href="#image-1"><img src="/theme_vauxoo/static/img/library/thumb/thumb_600x300.jpg" class="img img-responsive shadow mb16"/></a>
 			<span>Light Box</span>
             <div class="lb-overlay" id="image-1">
-							<img src="/theme_zen/static/img/gallery/home1.jpg" alt="image01" />
+							<img src="/theme_vauxoo/static/img/gallery/home1.jpg" alt="image01" />
 							<div>
 							  <h3>Light Box<span>/preview/</span></h3>
 								<p>A simple CSS-only lightbox experiment</p>
@@ -144,7 +144,7 @@
         <div class="container">
           <div class="row zen_3col_padding">
             <div class="col-md-5">
-              <img src="/theme_zen/static/img/library/thumb/thumb_400x300.jpg" style="" class="img img-responsive shadow"/>
+              <img src="/theme_vauxoo/static/img/library/thumb/thumb_400x300.jpg" style="" class="img img-responsive shadow"/>
 			   
               <h3 class="mt64">A Section title</h3>
               <h5 class="text-primary">A Section Subtitle</h5>
@@ -152,7 +152,7 @@
               
             </div>
             <div class="col-md-5 col-md-offset-2">
-              <img src="/theme_zen/static/img/library/thumb/thumb_400x300.jpg" style="" class="img img-responsive shadow"/>
+              <img src="/theme_vauxoo/static/img/library/thumb/thumb_400x300.jpg" style="" class="img img-responsive shadow"/>
 			   
               <h3 class="mt64">A Section title</h3>
               <h5 class="text-primary">A Section Subtitle</h5>
@@ -177,7 +177,7 @@
         <div class="container">
           <div class="row zen_3col_padding">
             <div class="col-md-4">
-              <img src="/theme_zen/static/img/library/thumb/thumb_300x200.jpg" style="" class="img img-responsive shadow"/>
+              <img src="/theme_vauxoo/static/img/library/thumb/thumb_300x200.jpg" style="" class="img img-responsive shadow"/>
 			   
               <h3 class="mt64">A Section title</h3>
               <h5 class="text-primary">A Section Subtitle</h5>
@@ -185,7 +185,7 @@
               
             </div>
             <div class="col-md-4">
-              <img src="/theme_zen/static/img/library/thumb/thumb_300x200.jpg" style="" class="img img-responsive shadow"/>
+              <img src="/theme_vauxoo/static/img/library/thumb/thumb_300x200.jpg" style="" class="img img-responsive shadow"/>
 			   
               <h3 class="mt64">A Section title</h3>
               <h5 class="text-primary">A Section Subtitle</h5>
@@ -193,7 +193,7 @@
               
             </div>
             <div class="col-md-4">
-              <img src="/theme_zen/static/img/library/thumb/thumb_300x200.jpg" style="" class="img img-responsive shadow"/>
+              <img src="/theme_vauxoo/static/img/library/thumb/thumb_300x200.jpg" style="" class="img img-responsive shadow"/>
 			   
               <h3 class="mt64">A Section title</h3>
               <h5 class="text-primary">A Section Subtitle</h5>
@@ -219,28 +219,28 @@
           <div class="row zen_3col_padding">
             
 			<div class="col-md-3">
-              <img src="/theme_zen/static/img/library/thumb/thumb_200x200.jpg" style="" class="img img-responsive shadow"/>
+              <img src="/theme_vauxoo/static/img/library/thumb/thumb_200x200.jpg" style="" class="img img-responsive shadow"/>
               <h3 class="mt64">A Section title</h3>
               <h5 class="text-primary">A Section Subtitle</h5>
               <p class="text-justify mt16">Adapt these three columns to fit you design need. To duplicate, delete or move columns, select the column and use the top icons to perform your action.</p>
              </div>
 			  
             <div class="col-md-3">
-              <img src="/theme_zen/static/img/library/thumb/thumb_200x200.jpg" style="" class="img img-responsive shadow"/>
+              <img src="/theme_vauxoo/static/img/library/thumb/thumb_200x200.jpg" style="" class="img img-responsive shadow"/>
               <h3 class="mt64">A Section title</h3>
               <h5 class="text-primary">A Section Subtitle</h5>
               <p class="text-justify mt16">To add a fourth column, reduce the size of these three columns using the right icon of each block. Then, duplicate one of the column to create a new one as a copy.</p>
               </div>
 			  
             <div class="col-md-3">
-              <img src="/theme_zen/static/img/library/thumb/thumb_200x200.jpg" style="" class="img img-responsive shadow"/>
+              <img src="/theme_vauxoo/static/img/library/thumb/thumb_200x200.jpg" style="" class="img img-responsive shadow"/>
               <h3 class="mt64">A Section title</h3>
               <h5 class="text-primary">A Section Subtitle</h5>
               <p class="text-justify mt16">Delete the above image or replace it with a picture that illustrates your message. Click on the picture to change it's rounded corner style.</p>
 			</div>
 			
             <div class="col-md-3">
-              <img src="/theme_zen/static/img/library/thumb/thumb_200x200.jpg" style="" class="img img-responsive shadow"/>
+              <img src="/theme_vauxoo/static/img/library/thumb/thumb_200x200.jpg" style="" class="img img-responsive shadow"/>
               <h3 class="mt64">A Section title</h3>
               <h5 class="text-primary">A Section Subtitle</h5>
               <p class="text-justify mt16">Delete the above image or replace it with a picture that illustrates your message. Click on the picture to change it's rounded corner style.</p>
@@ -266,7 +266,7 @@
 
 						<div class="clearfix">
 	  		 			<div class="mini_profile_img mb32 text-center animated fadeInDown">
-                		<img src="/theme_zen/static/img/zen_logo.png" alt="Me" class="img-circle center-block img-responsive animated fadeIn"/>
+                		<img src="/theme_vauxoo/static/img/zen_logo.png" alt="Me" class="img-circle center-block img-responsive animated fadeIn"/>
 	  		 		<h1 class="headerwrap_heading">Zen . A Odoo 3 Theme</h1>
 	 		 		 <p class="text-muted">Big Header with Background Image</p>
    
@@ -287,8 +287,8 @@
 				<div class="container">
                     <div class="row">
                       <div class="col-md-5 text-center miniprofile">
-					  <img src="/theme_zen/static/img/zen_id.png" alt="me" class="img-circle miniprofile_img_id center-block img-responsive"/>
-					  <img alt="140x140" class="img-responsive miniprofile_img_bg" src="/theme_zen/static/img/backgrounds/zen/miniprofile_zen_blue.jpg" />
+					  <img src="/theme_vauxoo/static/img/zen_id.png" alt="me" class="img-circle miniprofile_img_id center-block img-responsive"/>
+					  <img alt="140x140" class="img-responsive miniprofile_img_bg" src="/theme_vauxoo/static/img/backgrounds/zen/miniprofile_zen_blue.jpg" />
 					  <p><h4 class="miniprofile_name">- Your Name -</h4>
                         <h3 class="miniprofile_name mt0 mb32">Job / Fonction</h3></p>
                         
@@ -367,7 +367,7 @@
           <li data-slide-to="0" class="active" data-target="#myCarousel0"></li>
         </ol>
         <div class="carousel-inner">
-          <div style="background-image: url(/theme_zen/static/img/backgrounds/zen/bg_zen_blue.jpg)" class="item image_text active">
+          <div style="background-image: url(/theme_vauxoo/static/img/backgrounds/zen/bg_zen_blue.jpg)" class="item image_text active">
             <div class="container">
               <div class="row content">
                 <div class="col-md-6 col-sm-12 mt48 mb48">
@@ -375,7 +375,7 @@
                   <blockquote>
                         <p>You can add more slides to this banner</p></blockquote>
                 </div>
-                <span class="carousel-img col-md-6 hidden-sm hidden-xs"><img src="/theme_zen/static/img/zen_img1.png" alt="Odoo Theme" class="carousel-image img-responsive center-block"/></span>
+                <span class="carousel-img col-md-6 hidden-sm hidden-xs"><img src="/theme_vauxoo/static/img/zen_img1.png" alt="Odoo Theme" class="carousel-image img-responsive center-block"/></span>
               </div>
             </div>
           </div>
