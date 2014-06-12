@@ -1,0 +1,16 @@
+# -*- coding: utf-8 -*-
+
+from openerp.addons.web import http
+from openerp.addons.web.http import request
+
+class website_user_directory(http.Controller):
+
+    @http.route(['/page/website.aboutus', '/page/aboutus'], type='http', auth='public', website=True)
+    def user_directory(self, **post):
+        hr_obj = request.registry['hr.employee']
+        employee_ids = hr_obj.search(request.cr, request.uid, [], context=request.context)
+        values = {
+            'employee_ids': hr_obj.browse(request.cr, request.uid, employee_ids,
+                                          request.context)
+                }
+        return request.website.render("website.aboutus", values)
