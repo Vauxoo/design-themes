@@ -34,6 +34,18 @@ How add a new theme/features:
 	git commit -m "[TAG] module: what you did"	
 	`
 
+6. Add your changes to have them versioned.
+
+	`
+	git add .
+	`
+
+7. Push your first change branch to know you start to work on.
+
+	`
+	git push -u origin 8.0-your_new_feature_theme
+	`
+
 First Adding your corporative colors:
 ---
 
