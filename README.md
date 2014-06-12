@@ -14,13 +14,18 @@ How add a new theme/features:
 	git clone git@github.com:Vauxoo/design-themes.git
 	`
 
-2. Create your own branch:
+2. Create your own branch.
 
 	`
 	git checkout -b 8.0-your_new_feature_theme
 	`
 
-3. Push 
+3. Push your first change branch to know you start to work on.
+
+	`
+	git push -u origin 8.0-your_new_feature_theme
+	`
+
 First Adding your corporative colors:
 ---
 
