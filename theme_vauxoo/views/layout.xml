@@ -2,23 +2,28 @@
 <openerp>
 <data>
     <template id="themes_page" inherit_id="website.themes">
-        <xpath expr="//div[@id='themes-list']" position="before">
+        <xpath expr="//div[@id='themes-list']" position="inside">
             <div class="col-md-4">
                 <div class="well text-center">
                     <div class="image">
-                        <img src="/theme_vauxoo/static/img/palette/theme_vauxoo_blue.jpg" class="img-responsive" alt="Zen Theme"/>
+                        <img
+                            src="/theme_vauxoo/static/img/palette/theme_vauxoo.png"
+                            class="img-responsive" alt="Zen Theme"/>
                     </div>
                     <div class="options">
-                        <h3>Zen Theme Vauxoo</h3>
-                        <a class="btn btn-info" href="/website/theme_change?theme_id=theme_vauxoo.theme_vauxoo_blue">Apply</a>
+                        <h3>Vauxoo's Theme</h3>
+                        <p>Zen Theme Vauxoo</p>
+                        <a class="btn btn-info"
+                        href="/website/theme_change?theme_id=theme_vauxoo.theme_vauxoo_origin">
+                        Apply</a>
                     </div>
                 </div>
             </div>
         </xpath>
     </template>
-    <template id="theme_vauxoo.theme_vauxoo_blue" name="Theme Zen" inherit_id="website.theme" optional="disabled">
+    <template id="theme_vauxoo.theme_vauxoo_origin" name="Theme Zen" inherit_id="website.theme" optional="disabled">
         <xpath expr="//link[@id='bootstrap_css']" position="replace">
-            <link rel="stylesheet" type="text/css" href="/theme_vauxoo/static/css/theme_vauxoo_blue.css" t-ignore="true"/>
+            <link rel="stylesheet" type="text/css" href="/theme_vauxoo/static/css/theme_vauxoo.css" t-ignore="true"/>
         </xpath>
     </template>
     <template id="assets_frontend" inherit_id="website.assets_frontend" name="Vauxoo FrontEnd Assets">
