@@ -28,16 +28,16 @@ How add a new theme/features:
 
 4. Code, clean and test as usual (declaring this folder as part of your addons-path).
 
-5. Commit your changes.
-
-	`
-	git commit -m "[TAG] module: what you did"	
-	`
-
-6. Add your changes to have them versioned.
+5. Add your changes to have them versioned.
 
 	`
 	git add .
+	`
+
+6. Commit your changes.
+
+	`
+	git commit -m "[TAG] module: what you did"	
 	`
 
 7. Push your first change branch to know you start to work on.
