@@ -3,7 +3,7 @@ Hacking Theme Zen
 
 On this branch we created the module theme_vauxoo as a copy of the theme_zen.
 
-The main idea is create a little how-to commit a commit to know how create our own themes.
+The main idea is create a little how-to commit by commit to know how create our own themes in a clean way.
 
 How add a new theme/features:
 ---
@@ -24,6 +24,14 @@ How add a new theme/features:
 
 	`
 	git push -u origin 8.0-your_new_feature_theme
+	`
+
+4. Code, clean and test as usual (declaring this folder as part of your addons-path).
+
+5. Commit your changes.
+
+	`
+	git commit -m "[TAG] module: what you did"	
 	`
 
 First Adding your corporative colors:
