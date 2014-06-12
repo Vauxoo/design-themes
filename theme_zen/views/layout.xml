@@ -172,6 +172,7 @@
     <script src="/theme_zen/static/lib/Detector.js"></script>
     <script src="/theme_zen/static/lib/RequestAnimationFrame.js"></script>
     <script src="/theme_zen/static/js/theme_zen.js"></script>
+    <script src="/theme_zen/static/js/custom_users.js"></script>
     <link rel="stylesheet" type="text/css" href="/theme_zen/static/css/global_theme.css" />
    </xpath>
   </template>
