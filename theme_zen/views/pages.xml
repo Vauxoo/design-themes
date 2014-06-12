@@ -8,5 +8,41 @@
     </t>
 </template>
 
+<template id="users_snippet" name="Employees Dir" inherit_id="website.aboutus" optional="enabled">
+    <xpath expr="//div[@class='oe_structure']" position="after"> 
+            <section class="oe_snippet_body mb16 mt16">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-offset-3 col-sm-6">
+                            <div class="panel panel-default">
+                                <div class="panel-heading c-list">
+                                    <span class="title">Contacts</span>
+                                </div>
+                                <div class="row" style="display: none;">
+                                    <div class="col-xs-12">
+                                    </div>
+                                </div>
+                                <ul class="list-group" id="contact-list">
+                                    <li t-foreach="employee_ids" t-as="employee" class="list-group-item">
+                                        <div class="col-xs-12 col-sm-3">
+                                            <img t-att-src="employee.img('image_medium')" class="img-responsive img-circle" />
+                                        </div>
+                                        <div class="col-xs-12 col-sm-9">
+                                            <span t-field="employee.name"/><br/>
+                                            <span class="visible-xs"> 
+                                                <span t-field="employee.public_info" class="text-muted"/><br/>
+                                            </span>
+                                        </div>
+                                        <div class="clearfix"></div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+    </xpath>
+
+</template>
 </data>
 </openerp>
