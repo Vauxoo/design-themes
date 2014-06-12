@@ -14,7 +14,7 @@ How add a new theme/features:
 	git clone git@github.com:Vauxoo/design-themes.git
 	`
 
-2. Create your own branch.
+2. Create your own branch locally.
 
 	`
 	git checkout -b 8.0-your_new_feature_theme
