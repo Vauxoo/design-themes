@@ -24,6 +24,7 @@
     <template id="theme_vauxoo.theme_vauxoo_origin" name="Theme Zen" inherit_id="website.theme" optional="disabled">
         <xpath expr="//link[@id='bootstrap_css']" position="replace">
             <link rel="stylesheet" type="text/css" href="/theme_vauxoo/static/css/theme_vauxoo.css" t-ignore="true"/>
+            <link rel="stylesheet" type="text/css" href="/theme_vauxoo/static/css/modifier_vauxoo.css" t-ignore="true"/>
         </xpath>
     </template>
     <template id="assets_frontend" inherit_id="website.assets_frontend" name="Vauxoo FrontEnd Assets">
