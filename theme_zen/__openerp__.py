@@ -4,7 +4,11 @@
     'category': 'Website',
     'version': '1.0',
     'author': 'OpenERP SA',
-    'depends': ['website', 'hr'],
+    'depends': [
+                'website',
+                'hr',
+                'website_hr',
+    ],
     'data': [
         'views/layout.xml',
         'views/pages.xml',
