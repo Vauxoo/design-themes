@@ -122,6 +122,17 @@
                 </div>
             </div>
         </div>
+		<div class="col-md-4">
+            <div class="well text-center">
+                <div class="image">
+                    <img src="/theme_zen/static/img/palette/theme_vauxoo_purple.jpg" class="img-responsive" alt="vauxoo Theme"/>
+                </div>
+                <div class="options">
+                    <h3>vauxoo Theme Purple</h3>
+                    <a class="btn btn-info" href="/website/theme_change?theme_id=theme_zen.theme_vauxoo_purple">Apply</a>
+                </div>
+            </div>
+        </div>
     </xpath>
 </template>
 
@@ -182,6 +193,12 @@
 <template id="theme_zen.theme_zen_purple" name="Theme Zen" inherit_id="website.theme" optional="disabled">
     <xpath expr="//link[@id='bootstrap_css']" position="replace">
         <link rel="stylesheet" type="text/css" href="/theme_zen/static/css/theme_zen_purple.css" t-ignore="true"/>
+    </xpath>
+</template>
+
+<template id="theme_zen.theme_vauxoo_purple" name="Theme vauxoo" inherit_id="website.theme" optional="disabled">
+    <xpath expr="//link[@id='bootstrap_css']" position="replace">
+        <link rel="stylesheet" type="text/css" href="/theme_zen/static/css/theme_vauxoo_purple.css" t-ignore="true"/>
     </xpath>
 </template>
 
