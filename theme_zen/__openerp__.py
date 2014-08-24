@@ -17,4 +17,5 @@
         'views/options.xml',
     ],
     'application': True,
+    'installable': False,
 }
